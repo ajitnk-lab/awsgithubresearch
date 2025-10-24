@@ -121,6 +121,39 @@ python3 smart_rate_limit_classifier.py aws-samples --github-token YOUR_TOKEN
 - **Perfect resumption** after wait period
 - **No duplicate processing**
 
+### Processing New Repositories (Weekly Updates)
+
+**❌ Current Limitation**: Rerunning the same command will NOT detect new repositories added by AWS.
+
+**✅ Solution - Manual Refresh (Recommended)**:
+```bash
+# Step 1: Fetch updated repository list (includes new repos)
+python3 generic_fetch_repos.py aws-samples
+
+# Step 2: Run classification (processes only new repos)
+python3 smart_rate_limit_classifier.py aws-samples --github-token YOUR_TOKEN
+```
+
+**Example Workflow**:
+- **Week 1**: 7,552 repos → Process all (1.5 hours)
+- **Week 2**: 7,600 repos (48 new) → Process only 48 new repos (2-3 minutes)
+- **Week 3**: 7,650 repos (50 new) → Process only 50 new repos (2-3 minutes)
+
+**✅ Alternative - Fresh Start**:
+```bash
+# Delete existing data and start fresh
+aws s3 rm s3://aws-github-repo-classification-aws-samples/ --recursive
+python3 smart_rate_limit_classifier.py aws-samples --github-token YOUR_TOKEN
+```
+
+**🔄 Smart Detection Logic**:
+- ✅ Skips already processed repos (no duplicates)
+- ✅ Processes only new repos added since last run
+- ✅ Maintains all existing classifications
+- ✅ Updates checkpoint with new total count
+
+**💡 Best Practice**: Run `generic_fetch_repos.py {org}` weekly to capture new repositories, then run the classifier to process only new additions.
+
 ## 📈 Results & Performance
 
 ### AWSlabs (Completed)
