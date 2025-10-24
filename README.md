@@ -187,30 +187,83 @@ python3 smart_rate_limit_classifier.py aws-samples --github-token YOUR_TOKEN
 ### Any Organization
 - **Pattern**: https://aws-github-repo-classification-{org}.s3.amazonaws.com/
 
-## 🛠️ Available Tools
+## 📁 File Structure & Usage Guide
 
-### 1. Basic Generic Classifier
-```bash
-python3 generic_classifier.py {org} --batch-size 10
-```
-- Good for small organizations (<1000 repos)
-- Basic rate limit handling
+### Core Files
 
-### 2. Enhanced Generic Classifier
-```bash
-python3 enhanced_generic_classifier.py {org} --github-token TOKEN --batch-size 5
-```
-- Better for medium organizations (1000-5000 repos)
-- Improved error handling
+| File | Purpose | When to Use | How to Run |
+|------|---------|-------------|------------|
+| **README.md** | Complete documentation | Reference guide | Read for instructions |
+| **classification_results.csv** | AWSlabs results (925 repos) | Analysis & reference | Download/view in Excel |
 
-### 3. Smart Rate Limit Classifier (Recommended)
+### AWSlabs (Original) - Complete Results Available
+| File | Purpose | When to Use | How to Run |
+|------|---------|-------------|------------|
+| **s3_classifier.py** | Original awslabs classifier | AWSlabs only (already complete) | `python3 s3_classifier.py` |
+| **fetch_repos.py** | Original awslabs fetcher | AWSlabs only (already complete) | `python3 fetch_repos.py` |
+
+### Generic Classifiers - Any Organization
+
+#### 1. Basic Generic (Small Organizations <1000 repos)
+| File | Purpose | When to Use | How to Run |
+|------|---------|-------------|------------|
+| **generic_fetch_repos.py** | Fetch repos from any org | First time setup | `python3 generic_fetch_repos.py {org}` |
+| **generic_classifier.py** | Basic classification | Small orgs, no token needed | `python3 generic_classifier.py {org} --batch-size 10` |
+
+#### 2. Enhanced Generic (Medium Organizations 1000-5000 repos)
+| File | Purpose | When to Use | How to Run |
+|------|---------|-------------|------------|
+| **enhanced_generic_classifier.py** | Enhanced error handling | Medium orgs, token recommended | `python3 enhanced_generic_classifier.py {org} --github-token TOKEN --batch-size 8` |
+
+#### 3. Smart Rate Limit (Large Organizations 5000+ repos) - **Recommended**
+| File | Purpose | When to Use | How to Run |
+|------|---------|-------------|------------|
+| **smart_rate_limit_classifier.py** | Production-ready for large orgs | aws-samples, microsoft, google | `python3 smart_rate_limit_classifier.py {org} --github-token TOKEN --batch-size 5` |
+
+### Usage Workflows
+
+#### **New Organization Setup**
 ```bash
-python3 smart_rate_limit_classifier.py {org} --github-token TOKEN --batch-size 5
+# Step 1: Fetch repositories
+python3 generic_fetch_repos.py microsoft
+
+# Step 2: Classify (choose based on org size)
+# Small org (<1000 repos)
+python3 generic_classifier.py microsoft --batch-size 10
+
+# Large org (5000+ repos) - Recommended
+python3 smart_rate_limit_classifier.py microsoft --github-token YOUR_TOKEN --batch-size 5
 ```
-- **Best for large organizations** (5000+ repos)
-- **Smart 1-hour rate limit waits**
-- **Perfect resumption**
-- **Production-ready for aws-samples**
+
+#### **Weekly Updates (Add New Repos)**
+```bash
+# Step 1: Fetch updated repository list
+python3 generic_fetch_repos.py aws-samples
+
+# Step 2: Process only new repos
+python3 smart_rate_limit_classifier.py aws-samples --github-token YOUR_TOKEN --batch-size 5
+```
+
+#### **Resume After Interruption**
+```bash
+# Same command automatically resumes from checkpoint
+python3 smart_rate_limit_classifier.py aws-samples --github-token YOUR_TOKEN --batch-size 5
+```
+
+### File Selection Guide
+
+**Choose classifier based on organization size:**
+
+| Organization Size | Recommended File | GitHub Token | Batch Size | Processing Time |
+|------------------|------------------|--------------|------------|-----------------|
+| <1,000 repos | `generic_classifier.py` | Optional | 10 | Minutes |
+| 1,000-5,000 repos | `enhanced_generic_classifier.py` | Recommended | 8 | 30-60 minutes |
+| 5,000+ repos | `smart_rate_limit_classifier.py` | **Required** | 5 | 1-2 hours |
+
+**Examples:**
+- **HashiCorp** (~500 repos): Use `generic_classifier.py`
+- **Microsoft** (~3,000 repos): Use `enhanced_generic_classifier.py`
+- **AWS-Samples** (~7,500 repos): Use `smart_rate_limit_classifier.py`
 
 ## 📋 Sample Commands
 
