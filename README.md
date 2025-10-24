@@ -250,6 +250,69 @@ python3 smart_rate_limit_classifier.py aws-samples --github-token YOUR_TOKEN --b
 python3 smart_rate_limit_classifier.py aws-samples --github-token YOUR_TOKEN --batch-size 5
 ```
 
+## 📁 File Structure & Usage Guide
+
+### Core Files
+
+| File | Purpose | When to Use | How to Run |
+|------|---------|-------------|------------|
+| **README.md** | Complete documentation | Reference guide | Read for instructions |
+| **classification_results.csv** | AWSlabs results (925 repos) | Analysis & reference | Download/view in Excel |
+
+### AWSlabs (Original) - Complete Results Available
+| File | Purpose | When to Use | How to Run |
+|------|---------|-------------|------------|
+| **s3_classifier.py** | Original awslabs classifier | AWSlabs only (already complete) | `python3 s3_classifier.py` |
+| **fetch_repos.py** | Original awslabs fetcher | AWSlabs only (already complete) | `python3 fetch_repos.py` |
+
+### Generic Classifiers - Any Organization
+
+#### 1. Basic Generic (Small Organizations <1000 repos)
+| File | Purpose | When to Use | How to Run |
+|------|---------|-------------|------------|
+| **generic_fetch_repos.py** | Fetch repos from any org | First time setup | `python3 generic_fetch_repos.py {org}` |
+| **generic_classifier.py** | Basic classification | Small orgs, no token needed | `python3 generic_classifier.py {org} --batch-size 10` |
+
+#### 2. Enhanced Generic (Medium Organizations 1000-5000 repos)
+| File | Purpose | When to Use | How to Run |
+|------|---------|-------------|------------|
+| **enhanced_generic_classifier.py** | Enhanced error handling | Medium orgs, token recommended | `python3 enhanced_generic_classifier.py {org} --github-token TOKEN --batch-size 8` |
+
+#### 3. Smart Rate Limit (Large Organizations 5000+ repos) - **Recommended**
+| File | Purpose | When to Use | How to Run |
+|------|---------|-------------|------------|
+| **smart_rate_limit_classifier.py** | Production-ready for large orgs | aws-samples, microsoft, google | `python3 smart_rate_limit_classifier.py {org} --github-token TOKEN --batch-size 5` |
+
+### Usage Workflows
+
+#### **New Organization Setup**
+```bash
+# Step 1: Fetch repositories
+python3 generic_fetch_repos.py microsoft
+
+# Step 2: Classify (choose based on org size)
+# Small org (<1000 repos)
+python3 generic_classifier.py microsoft --batch-size 10
+
+# Large org (5000+ repos) - Recommended
+python3 smart_rate_limit_classifier.py microsoft --github-token YOUR_TOKEN --batch-size 5
+```
+
+#### **Weekly Updates (Add New Repos)**
+```bash
+# Step 1: Fetch updated repository list
+python3 generic_fetch_repos.py aws-samples
+
+# Step 2: Process only new repos
+python3 smart_rate_limit_classifier.py aws-samples --github-token YOUR_TOKEN --batch-size 5
+```
+
+#### **Resume After Interruption**
+```bash
+# Same command automatically resumes from checkpoint
+python3 smart_rate_limit_classifier.py aws-samples --github-token YOUR_TOKEN --batch-size 5
+```
+
 ### File Selection Guide
 
 **Choose classifier based on organization size:**
@@ -297,6 +360,23 @@ aws-samples/serverless-patterns,Foundation Builders,DevOps,Development Efficienc
 - **Process Crash**: Resumes from exact last position
 - **Failed Repos**: Tracked separately, skipped on resume
 - **Progress Monitoring**: Real-time progress with milestone celebrations
+
+## 🔧 Troubleshooting
+
+### CSV Generation Issue Fix
+
+If your CSV contains identical values for all repositories (hardcoded defaults), run the fix script:
+
+```bash
+# After classification is complete, generate real results
+python3 fix_smart_classifier.py
+```
+
+**Issue**: The smart classifier processes repositories but doesn't save actual classification results - only tracks completion status.
+
+**Solution**: The fix script re-runs classification logic on completed repositories (no API calls) and generates proper CSV with real analysis results.
+
+**When to use**: After `smart_rate_limit_classifier.py` completes but CSV shows identical values for all rows.
 
 ## 🤝 Contributing
 
