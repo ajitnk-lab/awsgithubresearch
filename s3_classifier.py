@@ -7,6 +7,8 @@ Processes all 939 awslabs repositories with resumability and crash recovery
 import json
 import boto3
 import time
+import requests
+import re
 from datetime import datetime
 from typing import Dict, List, Optional
 
@@ -99,21 +101,64 @@ class S3RepositoryClassifier:
             print(f"❌ Failed to load master index: {e}")
             return []
     
+    def get_readme_description(self, repo: Dict) -> str:
+        """Get first 1-2 paragraphs from README as fallback description"""
+        try:
+            url = f"https://api.github.com/repos/{repo['full_name']}/readme"
+            response = requests.get(url, timeout=10)
+            if response.status_code == 200:
+                import base64
+                content = base64.b64decode(response.json()['content']).decode('utf-8')
+                # Extract first 2 paragraphs (up to 300 chars)
+                lines = content.split('\n')
+                desc_lines = []
+                for line in lines:
+                    line = line.strip()
+                    if line and not line.startswith('#') and not line.startswith('!'):
+                        desc_lines.append(line)
+                        if len(' '.join(desc_lines)) > 300:
+                            break
+                        if len(desc_lines) >= 2:
+                            break
+                return ' '.join(desc_lines)[:300]
+        except:
+            pass
+        return ""
+    
+    def get_description(self, repo: Dict) -> str:
+        """Get description with README fallback"""
+        desc = repo.get("description")
+        if not desc:
+            desc = self.get_readme_description(repo)
+        return desc or ""
+        """Load master index from S3"""
+        try:
+            response = self.s3_client.get_object(
+                Bucket=self.bucket_name,
+                Key=self.master_index_key
+            )
+            data = json.loads(response['Body'].read())
+            return data["repositories"]
+        except Exception as e:
+            print(f"❌ Failed to load master index: {e}")
+            return []
+    
     def classify_repository(self, repo: Dict) -> Optional[Dict]:
-        """Classify a single repository with all 19 dimensions"""
+        """Classify a single repository with all 20 dimensions (added solution_marketing)"""
         try:
             classification = {
                 # Basic Info
                 "repository": repo["full_name"],
-                "url": repo["url"],
-                "description": repo["description"],
+                "url": repo["html_url"],
+                "description": self.get_description(repo),
                 "created_date": repo.get("created_at", ""),
                 "last_modified": repo["updated_at"],
-                "stars": repo["stars"],
-                "forks": repo["forks"],
+                "stars": repo["stargazers_count"],
+                "forks": repo["forks_count"],
                 
                 # Business Classification
                 "solution_type": self.get_solution_type(repo),
+                "solution_marketing": self.get_solution_marketing(repo),
                 "technical_competencies": self.get_technical_competencies(repo),
                 "solution_competencies": "Cross-Industry",
                 
@@ -158,9 +203,79 @@ class S3RepositoryClassifier:
             print(f"❌ Failed to classify {repo['full_name']}: {e}")
             return None
     
+    def get_solution_marketing(self, repo: Dict) -> str:
+        """Determine solution marketing category based on repo name, description and functionality"""
+        repo_name = repo.get("name", "").lower()
+        desc = (repo.get("description") or "").lower()
+        topics = " ".join(repo.get("topics", [])).lower()
+        text = f"{repo_name} {desc} {topics}"
+        
+        # Setup & Bootstrap
+        if any(word in text for word in ["setup", "bootstrap", "quickstart", "quick-start", "getting-started", "install", "deployment"]):
+            return "setup"
+        
+        # Landing Zone
+        if any(word in text for word in ["landing-zone", "landingzone", "multi-account", "account-factory", "control-tower"]):
+            return "landingzone"
+        
+        # Starter & Templates
+        if any(word in text for word in ["starter", "template", "boilerplate", "scaffold", "blueprint", "reference-architecture"]):
+            return "starter"
+        
+        # Optimization
+        if any(word in text for word in ["optim", "performance", "cost", "efficiency", "tuning", "scaling"]):
+            return "optimise"
+        
+        # Compliance & Security
+        if any(word in text for word in ["compliance", "security", "audit", "governance", "policy", "config-rules"]):
+            return "compliance"
+        
+        # Improvement & Enhancement
+        if any(word in text for word in ["improve", "enhance", "upgrade", "migration", "moderniz", "refactor"]):
+            return "improvement"
+        
+        # Visibility & Monitoring
+        if any(word in text for word in ["monitor", "observ", "dashboard", "metrics", "logging", "visibility", "insight"]):
+            return "visibility"
+        
+        # Foundation & Infrastructure
+        if any(word in text for word in ["foundation", "infrastructure", "platform", "framework", "core", "base"]):
+            return "foundation"
+        
+        # Readiness & Preparation
+        if any(word in text for word in ["ready", "prepar", "provision", "orchestrat", "automation"]):
+            return "readiness"
+        
+        # Enablement & Tools
+        if any(word in text for word in ["enable", "tool", "utility", "helper", "support", "assist"]):
+            return "enablement"
+        
+        # Innovation & AI/ML
+        if any(word in text for word in ["innovat", "ai", "ml", "machine-learning", "bedrock", "agent", "genai"]):
+            return "innovation"
+        
+        # Assessment & Analysis
+        if any(word in text for word in ["assess", "analyz", "evaluat", "test", "benchmark", "profil"]):
+            return "assessment"
+        
+        # Advisor & Intelligence
+        if any(word in text for word in ["advisor", "intelligent", "smart", "recommend", "suggest"]):
+            return "advisor"
+        
+        # Recommendation & Best Practices
+        if any(word in text for word in ["recommend", "best-practice", "pattern", "guideline", "standard"]):
+            return "recommendation"
+        
+        # Guidance & Documentation
+        if any(word in text for word in ["guidance", "guide", "tutorial", "workshop", "learn", "documentation"]):
+            return "guidance"
+        
+        # Default based on solution type fallback
+        return "enablement"
+    
     def get_solution_type(self, repo: Dict) -> str:
         """Determine solution type"""
-        desc = repo.get("description", "").lower()
+        desc = self.get_description(repo).lower()
         topics = " ".join(repo.get("topics", [])).lower()
         text = f"{desc} {topics}"
         
@@ -168,16 +283,16 @@ class S3RepositoryClassifier:
             return "Compliance Accelerators"
         elif any(word in text for word in ["ai", "ml", "machine-learning", "bedrock", "agent"]):
             return "Innovation Catalysts"
-        elif any(word in text for word in ["cost", "optimization", "performance", "quick"]):
+        elif any(word in text for word in ["cost", "optimization", "performance"]):
             return "Quick Wins"
-        elif any(word in text for word in ["monitoring", "observability", "logging", "operational"]):
+        elif any(word in text for word in ["monitoring", "observability", "logging"]):
             return "Operational Excellence"
         else:
             return "Foundation Builders"
     
     def get_technical_competencies(self, repo: Dict) -> str:
         """Get technical competencies"""
-        desc = repo.get("description", "").lower()
+        desc = self.get_description(repo).lower()
         topics = " ".join(repo.get("topics", [])).lower()
         text = f"{desc} {topics}"
         
@@ -212,7 +327,7 @@ class S3RepositoryClassifier:
     
     def get_additional_languages(self, repo: Dict) -> str:
         """Get additional languages"""
-        primary = repo.get("language", "").lower()
+        primary = (repo.get("language") or "").lower()
         if "python" in primary:
             return "JavaScript, Shell"
         elif "javascript" in primary:
@@ -224,7 +339,7 @@ class S3RepositoryClassifier:
     
     def get_frameworks(self, repo: Dict) -> str:
         """Get frameworks used"""
-        desc = repo.get("description", "").lower()
+        desc = self.get_description(repo).lower()
         topics = " ".join(repo.get("topics", [])).lower()
         text = f"{desc} {topics}"
         
@@ -243,7 +358,7 @@ class S3RepositoryClassifier:
     def get_aws_services(self, description: str) -> str:
         """Extract AWS services from description"""
         services = []
-        desc_lower = description.lower()
+        desc_lower = (description or "").lower()
         
         service_map = {
             "lambda": "Lambda", "s3": "S3", "dynamodb": "DynamoDB",
@@ -260,7 +375,7 @@ class S3RepositoryClassifier:
     
     def get_setup_time(self, repo: Dict) -> str:
         """Get estimated setup time"""
-        stars = repo.get("stars", 0)
+        stars = repo.get("stargazers_count", 0)
         if stars > 5000:
             return "Full-day Setup (4-8 hours)"
         elif stars > 1000:
@@ -270,7 +385,7 @@ class S3RepositoryClassifier:
     
     def get_cost_range(self, repo: Dict) -> str:
         """Get estimated cost range"""
-        desc = repo.get("description", "").lower()
+        desc = self.get_description(repo).lower()
         if any(word in desc for word in ["enterprise", "scale", "production"]):
             return "Medium ($100-1000/month)"
         elif any(word in desc for word in ["simple", "basic", "tool"]):
@@ -294,7 +409,7 @@ class S3RepositoryClassifier:
     
     def get_usp(self, repo: Dict) -> str:
         """Get unique selling proposition"""
-        stars = repo.get("stars", 0)
+        stars = repo.get("stargazers_count", 0)
         
         if stars > 5000:
             return f"Highly popular community solution ({stars}+ stars)"
@@ -328,7 +443,7 @@ class S3RepositoryClassifier:
     
     def is_genai_agentic(self, repo: Dict) -> str:
         """Check if repository is GenAI/Agentic"""
-        desc = repo.get("description", "").lower()
+        desc = self.get_description(repo).lower()
         topics = " ".join(repo.get("topics", [])).lower()
         text = f"{desc} {topics}"
         
@@ -386,10 +501,9 @@ class S3RepositoryClassifier:
             
             print(f"\n💾 Checkpoint saved - Progress: {len(completed_repos)}/{len(repos)}")
             
-            # For demo, process limited repos
-            if len(completed_repos) >= 20:
-                print("\n🎯 Demo completed - processed 20 repositories")
-                break
+            # Continue processing all repositories
+            if len(completed_repos) % 50 == 0 and len(completed_repos) > 0:
+                print(f"\n🎯 Milestone: {len(completed_repos)} repositories processed")
         
         print(f"\n✅ Classification completed!")
         print(f"📊 Total processed: {len(completed_repos)}")
