@@ -14,6 +14,7 @@ Automatically classifies 945+ awslabs repositories using a comprehensive 20-dime
 - **Robust Error Handling**: Handles None values and API failures gracefully
 - **Public Results**: Accessible via S3 for analysis and sharing
 - **Production Ready**: Processes 945+ repositories with batch processing
+- **Generic Support**: Works with any GitHub organization (awslabs, microsoft, google, etc.)
 
 ## 📊 Classification Dimensions
 
@@ -40,10 +41,10 @@ Automatically classifies 945+ awslabs repositories using a comprehensive 20-dime
 ## 🏗️ Architecture
 
 ```
-s3://aws-github-repo-classification/
-├── master-index/awslabs_repos_939.json    # All repositories to process
-├── checkpoints/progress.json              # Current position & completed repos  
-└── results/classification_results.csv     # Final classification output (925 repos)
+s3://aws-github-repo-classification-{org}/
+├── master-index/{org}_repos.json       # All repositories to process
+├── checkpoints/progress.json           # Current position & completed repos  
+└── results/classification_results.csv  # Final classification output
 ```
 
 ## 🔧 Usage
@@ -53,7 +54,7 @@ s3://aws-github-repo-classification/
 - AWS CLI configured with S3 permissions
 - Required packages: `boto3`, `requests`
 
-### Quick Start
+### AWSlabs (Original)
 
 1. **Fetch Repositories**
 ```bash
@@ -69,27 +70,61 @@ python3 s3_classifier.py
 - CSV: https://aws-github-repo-classification.s3.amazonaws.com/results/classification_results.csv
 - Progress: https://aws-github-repo-classification.s3.amazonaws.com/checkpoints/progress.json
 
+### Generic (Any Organization)
+
+1. **Fetch Repositories**
+```bash
+python3 generic_fetch_repos.py microsoft
+python3 generic_fetch_repos.py google
+python3 generic_fetch_repos.py hashicorp
+```
+
+2. **Run Classification**
+```bash
+python3 generic_classifier.py microsoft
+python3 generic_classifier.py google --batch-size 20
+python3 generic_classifier.py hashicorp
+```
+
+3. **Access Results**
+- Bucket: https://aws-github-repo-classification-{org}.s3.amazonaws.com/
+- CSV: https://aws-github-repo-classification-{org}.s3.amazonaws.com/results/classification_results.csv
+
 ### Resumability
 
 The system automatically resumes from last checkpoint if interrupted:
-- Tracks completed repositories (925/945 processed)
+- Tracks completed repositories
 - Skips already processed items
 - Saves progress after each batch (every 10 repositories)
 - No duplicate processing
 
 ## 📈 Results
 
+### AWSlabs Results
 - **Total Repositories**: 945 awslabs repositories
 - **Successfully Classified**: 925 repositories (97.9% success rate)
 - **Processing Time**: ~6 minutes for full dataset
 - **Batch Size**: 10 repositories per checkpoint
 
+### Generic Results
+- **Supports any GitHub organization**
+- **Automatic S3 bucket creation** with organization prefix
+- **Same 20-dimension classification** framework
+- **Configurable batch processing**
+
 ## 🔗 Public Access
 
+### AWSlabs (Original)
 - **S3 Bucket**: https://aws-github-repo-classification.s3.amazonaws.com/
 - **Results CSV**: Direct download of 925 classified repositories
 - **Real-time Progress**: Monitor processing status via checkpoints
 - **Master Index**: Complete repository metadata
+
+### Generic Organizations
+- **S3 Bucket**: https://aws-github-repo-classification-{org}.s3.amazonaws.com/
+- **Results CSV**: Organization-specific classification results
+- **Progress Monitoring**: Real-time processing status
+- **Automatic Public Access**: All buckets created with public read access
 
 ## 🛠️ Technical Details
 
@@ -132,4 +167,4 @@ MIT License - See LICENSE file for details
 
 ---
 
-**Built for AWS Solutions Architects and DevOps teams to quickly identify and categorize AWS open-source solutions.**
+**Built for AWS Solutions Architects and DevOps teams to quickly identify and categorize open-source solutions from any GitHub organization.**
