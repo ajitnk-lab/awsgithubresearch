@@ -1,0 +1,2130 @@
+🔑 Using GitHub token for higher rate limits
+🚀 Starting Enhanced Classification V3 with Error Logging
+📊 Processing 7552 repositories
+⭐ Star range: 5496 to 0
+
+📦 Batch 1/1511 (repos 1-5)
+  🔍 aws-samples/aws-cdk-examples (⭐5496)
+    ✅ AWS: CDK
+    📝 Desc: Example projects using the AWS CDK...
+  🔍 aws-samples/aws-serverless-workshops (⭐4251)
+    ✅ AWS: API Gateway, Athena, CodeBuild, CodeCommit, CodePipeline
+    📝 Desc: Code and walkthrough labs to set up serverless applications for Wild Rydes works...
+  🔍 aws-samples/aws-workshop-for-kubernetes (⭐2695)
+    ✅ AWS: EC2, EKS, S3
+    📝 Desc: AWS Workshop for Kubernetes...
+  🔍 aws-samples/aws-machine-learning-university-accelerated-nlp (⭐2428)
+    ✅ AWS: SageMaker
+    📝 Desc: Machine Learning University: Accelerated Natural Language Processing Class...
+  🔍 aws-samples/aws-serverless-airline-booking (⭐2291)
+    ✅ AWS: Cognito, DynamoDB, Lambda, SNS, Step Functions
+    📝 Desc: Airline Booking is a sample web application that provides Flight Search, Flight ...
+  📊 Batch 1: 5/5 successful (1.8s)
+  📈 Overall: 5/5 successful, 0 failed
+  ⏱️  Estimated remaining: 45.0 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch1.csv
+
+📦 Batch 2/1511 (repos 6-10)
+  🔍 aws-samples/amazon-bedrock-workshop (⭐1992)
+    ✅ AWS: Bedrock
+    📝 Desc: This is a workshop designed for Amazon Bedrock a foundational model service....
+  🔍 aws-samples/serverless-patterns (⭐1752)
+    ✅ AWS: Lambda
+    📝 Desc: Serverless patterns. Learn more at the website: https://serverlessland.com/patte...
+  🔍 aws-samples/ecs-refarch-cloudformation (⭐1709)
+    ✅ AWS: CloudFormation, CodeBuild, EC2, ECS, S3
+    📝 Desc: A reference architecture for deploying containerized microservices with Amazon E...
+  🔍 aws-samples/aws-machine-learning-university-accelerated-cv (⭐1605)
+    ✅ AWS: SageMaker
+    📝 Desc: Machine Learning University: Accelerated Computer Vision Class...
+  🔍 aws-samples/lambda-refarch-webapp (⭐1598)
+    ✅ AWS: API Gateway, Cognito, DynamoDB, Lambda
+    📝 Desc: The Web Application reference architecture is a general-purpose, event-driven, w...
+  📊 Batch 2: 5/5 successful (2.8s)
+  📈 Overall: 10/10 successful, 0 failed
+  ⏱️  Estimated remaining: 75.9 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch2.csv
+
+📦 Batch 3/1511 (repos 11-15)
+  🔍 aws-samples/aws-glue-samples (⭐1522)
+    ✅ AWS: Glue, QuickSight, Redshift, S3
+    📝 Desc: AWS Glue code samples...
+  🔍 aws-samples/aws-modern-application-workshop (⭐1488)
+    ✅ AWS: General AWS
+    📝 Desc: A tutorial for developers that want to learn about how to build modern applicati...
+  🔍 aws-samples/custom-lens-wa-hub (⭐1371)
+    ✅ AWS: API Gateway, DocumentDB, DynamoDB, Glue, IAM
+    📝 Desc: Provide JSON file template that demonstrate how to create customize Well-Archite...
+  🔍 aws-samples/aws-genai-llm-chatbot (⭐1333)
+    ✅ AWS: API Gateway, Aurora, Bedrock, CDK, Cognito
+    📝 Desc: A modular and comprehensive solution to deploy a Multi-LLM and Multi-RAG powered...
+  🔍 aws-samples/claude-prompt-generator (⭐1281)
+    ✅ AWS: Bedrock
+    📝 Desc: For user not using any language model, initial prompt is generated from scratch ...
+  📊 Batch 3: 5/5 successful (3.3s)
+  📈 Overall: 15/15 successful, 0 failed
+  ⏱️  Estimated remaining: 90.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch3.csv
+
+📦 Batch 4/1511 (repos 16-20)
+  🔍 aws-samples/amazon-bedrock-samples (⭐1250)
+    ✅ AWS: Bedrock, IAM, SageMaker
+    📝 Desc: This repository contains examples for customers to get started using the Amazon ...
+  🔍 aws-samples/bedrock-chat (⭐1237)
+    ✅ AWS: Bedrock, CDK, Lambda
+    📝 Desc: AWS-native chatbot using Bedrock...
+  🔍 aws-samples/generative-ai-use-cases (⭐1202)
+    ✅ AWS: Bedrock, Lambda, SageMaker
+    📝 Desc: Application implementation with business use cases for safely utilizing generati...
+  🔍 aws-samples/aws-serverless-ecommerce-platform (⭐1138)
+    ✅ AWS: API Gateway, Cognito, EventBridge, IAM, Lambda
+    📝 Desc: Serverless Ecommerce Platform is a sample implementation of a serverless backend...
+  🔍 aws-samples/aws-refarch-wordpress (⭐1107)
+    ✅ AWS: ACM, CloudFormation, CloudFront, EC2, EFS
+    📝 Desc: This reference architecture provides best practices and a set of YAML CloudForma...
+  📊 Batch 4: 5/5 successful (2.3s)
+  📈 Overall: 20/20 successful, 0 failed
+  ⏱️  Estimated remaining: 91.5 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch4.csv
+
+📦 Batch 5/1511 (repos 21-25)
+  🔍 aws-samples/aws-security-reference-architecture-examples (⭐1098)
+    ✅ AWS: CloudFormation, IAM
+    📝 Desc: Example solutions demonstrating how to implement patterns within the AWS Securit...
+  🔍 aws-samples/aws-machine-learning-university-accelerated-tab (⭐1031)
+    ✅ AWS: SageMaker
+    📝 Desc: Machine Learning University: Accelerated Tabular Data Class...
+  🔍 aws-samples/aws-incident-response-playbooks (⭐1026)
+    ✅ AWS: General AWS
+    📝 Desc: These playbooks are created to be used as templates only. They should be customi...
+  🔍 aws-samples/hardeneks (⭐930)
+    ✅ AWS: CloudWatch, EKS, IAM
+    📝 Desc: Runs checks to see if an EKS cluster follows EKS Best Practices....
+  🔍 aws-samples/aws-big-data-blog (⭐896)
+    ✅ AWS: General AWS
+    📝 Desc: This repository host code samples from the AWS Big Data Blog. http://blogs.aws.a...
+  📊 Batch 5: 5/5 successful (3.5s)
+  📈 Overall: 25/25 successful, 0 failed
+  ⏱️  Estimated remaining: 98.1 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch5.csv
+
+📦 Batch 6/1511 (repos 26-30)
+  🔍 aws-samples/machine-learning-samples (⭐881)
+    ✅ AWS: Kinesis, Lambda, SNS
+    📝 Desc: Sample applications built using AWS' Amazon Machine Learning....
+  🔍 aws-samples/bedrock-access-gateway (⭐853)
+    ✅ AWS: ALB, Bedrock, Fargate, Lambda, VPC
+    📝 Desc: OpenAI-Compatible RESTful APIs for Amazon Bedrock...
+  🔍 aws-samples/startup-kit-templates (⭐842)
+    ✅ AWS: Aurora, CloudFormation, Fargate, IAM, RDS
+    📝 Desc: CloudFormation templates to accelerate getting started on AWS....
+  🔍 aws-samples/eks-workshop (⭐819)
+    ✅ AWS: EKS
+    📝 Desc: AWS Workshop for Learning EKS...
+  🔍 aws-samples/aws-lex-web-ui (⭐812)
+    ✅ AWS: CloudFormation, Polly, S3
+    📝 Desc: Sample Amazon Lex chat bot web interface...
+  📊 Batch 6: 5/5 successful (2.8s)
+  📈 Overall: 30/30 successful, 0 failed
+  ⏱️  Estimated remaining: 99.3 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch6.csv
+
+📦 Batch 7/1511 (repos 31-35)
+  🔍 aws-samples/aws-mlu-explain (⭐782)
+    ✅ AWS: General AWS
+    📝 Desc: Visual, Interactive Articles About Machine Learning:  https://mlu-explain.github...
+  🔍 aws-samples/aws-secure-environment-accelerator (⭐764)
+    ✅ AWS: General AWS
+    📝 Desc: ASEA developer support has ended, and the ASEA github repo will be marked Archiv...
+  🔍 aws-samples/retail-demo-store (⭐760)
+    ✅ AWS: CloudFront, CodePipeline, Cognito, ECS, Fargate
+    📝 Desc: AWS Retail Demo Store is a sample retail web application and workshop platform d...
+  🔍 aws-samples/simple-websockets-chat-app (⭐709)
+    ✅ AWS: API Gateway, CDK, CloudFormation, DynamoDB, Lambda
+    📝 Desc: This SAM application provides the Lambda functions, DynamoDB table, and roles to...
+  🔍 aws-samples/aws2tf (⭐693)
+    ✅ AWS: ECS, EFS, VPC
+    📝 Desc: aws2tf - automates the importing of existing AWS resources into Terraform and ou...
+  📊 Batch 7: 5/5 successful (2.1s)
+  📈 Overall: 35/35 successful, 0 failed
+  ⏱️  Estimated remaining: 97.9 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch7.csv
+
+📦 Batch 8/1511 (repos 36-40)
+  🔍 aws-samples/aws-bookstore-demo-app (⭐670)
+    ✅ AWS: API Gateway, CloudFormation, CloudFront, CloudWatch, CodeBuild
+    📝 Desc: AWS Bookstore Demo App is a full-stack sample web application that creates a sto...
+  🔍 aws-samples/lambda-refarch-imagerecognition (⭐666)
+    ✅ AWS: CloudFormation, DynamoDB, IAM, Lambda, Rekognition
+    📝 Desc: The Image Recognition and Processing Backend reference architecture demonstrates...
+  🔍 aws-samples/siem-on-amazon-opensearch-service (⭐647)
+    ✅ AWS: CDK, CloudFormation, CloudFront, CloudTrail, IAM
+    📝 Desc: A solution for collecting, correlating and visualizing multiple types of logs to...
+  🔍 aws-samples/aws-codedeploy-samples (⭐639)
+    ✅ AWS: CodeDeploy, IAM
+    📝 Desc: Samples and template scenarios for AWS CodeDeploy...
+  🔍 aws-samples/aws-customer-playbook-framework (⭐637)
+    ✅ AWS: General AWS
+    📝 Desc: This repository provides sample templates for security playbooks against various...
+  📊 Batch 8: 5/5 successful (3.1s)
+  📈 Overall: 40/40 successful, 0 failed
+  ⏱️  Estimated remaining: 99.9 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch8.csv
+
+📦 Batch 9/1511 (repos 41-45)
+  🔍 aws-samples/swift-chat (⭐631)
+    ✅ AWS: Bedrock
+    📝 Desc: A lightning-fast, cross-platform AI chat application built with React Native....
+  🔍 aws-samples/emr-bootstrap-actions (⭐613)
+    ✅ AWS: EMR, S3
+    📝 Desc: This repository hold the Amazon Elastic MapReduce sample bootstrap actions...
+  🔍 aws-samples/amazon-personalize-samples (⭐598)
+    ✅ AWS: Batch, Bedrock, CloudFormation, Step Functions
+    📝 Desc: Notebooks and examples on how to onboard and use various features of Amazon Pers...
+  🔍 aws-samples/kubernetes-for-java-developers (⭐592)
+    ✅ AWS: EC2
+    📝 Desc: A Day in Java Developer’s Life, with a taste of Kubernetes...
+  🔍 aws-samples/lambda-refarch-mobilebackend (⭐587)
+    ✅ AWS: API Gateway, CloudFormation, Cognito, DynamoDB, Lambda
+    📝 Desc: Serverless Reference Architecture for creating a Mobile Backend...
+  📊 Batch 9: 5/5 successful (2.9s)
+  📈 Overall: 45/45 successful, 0 failed
+  ⏱️  Estimated remaining: 100.9 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch9.csv
+
+📦 Batch 10/1511 (repos 46-50)
+  🔍 aws-samples/aws-dynamodb-examples (⭐585)
+    ✅ AWS: Bedrock, DynamoDB
+    📝 Desc: DynamoDB Examples...
+  🔍 aws-samples/aws-serverless-workshop-innovator-island (⭐574)
+    ✅ AWS: API Gateway, Lambda
+    📝 Desc: Welcome to the Innovator Island serverless workshop! This repo contains all the ...
+  🔍 aws-samples/aws-iot-chat-example (⭐566)
+    ✅ AWS: API Gateway, CloudFront, Cognito, DynamoDB, Lambda
+    📝 Desc: 💬   Chat application using AWS IoT platform via MQTT over the WebSocket protocol...
+  🔍 aws-samples/eks-workshop-v2 (⭐563)
+    ✅ AWS: EKS, VPC
+    📝 Desc: Hands-on labs for Amazon EKS...
+  🔍 aws-samples/aws-ml-enablement-workshop (⭐545)
+    ✅ AWS: General AWS
+    📝 Desc: 組織横断的にチームを組成し、機械学習による成長サイクルを実現する計画を立てるワークショップ...
+  📊 Batch 10: 5/5 successful (2.2s)
+  📈 Overall: 50/50 successful, 0 failed
+  ⏱️  Estimated remaining: 99.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch10.csv
+
+📦 Batch 11/1511 (repos 51-55)
+  🔍 aws-samples/aws-serverless-security-workshop (⭐539)
+    ✅ AWS: API Gateway, Aurora, Lambda, RDS
+    📝 Desc: In this workshop, you will learn techniques to secure a serverless application b...
+  🔍 aws-samples/aws-amplify-graphql (⭐526)
+    ✅ AWS: Cognito, DynamoDB, Lambda, OpenSearch, S3
+    📝 Desc: Sample using AWS Amplify and AWS AppSync together for user login and authorizati...
+  🔍 aws-samples/amazon-forecast-samples (⭐526)
+    ✅ AWS: General AWS
+    📝 Desc: Notebooks and examples on how to onboard and use various features of Amazon Fore...
+  🔍 aws-samples/amazon-cloudfront-functions (⭐521)
+    ✅ AWS: CloudFront, Lambda
+    📝 Desc: This repository contains example CloudFront functions and instructions to deploy...
+  🔍 aws-samples/cloudfront-authorization-at-edge (⭐519)
+    ✅ AWS: CloudFormation, CloudFront, Cognito, Lambda, S3
+    📝 Desc: Protect downloads of your content hosted on CloudFront with Cognito authenticati...
+  📊 Batch 11: 5/5 successful (3.5s)
+  📈 Overall: 55/55 successful, 0 failed
+  ⏱️  Estimated remaining: 102.1 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch11.csv
+
+📦 Batch 12/1511 (repos 56-60)
+  🔍 aws-samples/aws-mobile-appsync-chat-starter-angular (⭐517)
+    ✅ AWS: Cognito, DynamoDB
+    📝 Desc: GraphQL starter progressive web application (PWA) with Realtime and Offline func...
+  🔍 aws-samples/aws-saas-factory-ref-solution-serverless-saas (⭐513)
+    ✅ AWS: CDK, CodePipeline, Cognito, S3
+    📝 Desc: This serverless saas reference solution is built using [SaaS Builder Toolkit (SB...
+  🔍 aws-samples/service-screener-v2 (⭐502)
+    ✅ AWS: CloudFormation, IAM
+    📝 Desc: A tool for customers to evaluate their AWS service configurations based on AWS a...
+  🔍 aws-samples/aws-lambda-extensions (⭐482)
+    ✅ AWS: DynamoDB, Lambda
+    📝 Desc: A collection of sample extensions to help you get started with AWS Lambda Extens...
+  🔍 aws-samples/lambda-refarch-fileprocessing (⭐468)
+    ✅ AWS: CloudWatch, Comprehend, Lambda, S3, SNS
+    📝 Desc: Serverless Reference Architecture for Real-time File Processing...
+  📊 Batch 12: 5/5 successful (3.0s)
+  📈 Overall: 60/60 successful, 0 failed
+  ⏱️  Estimated remaining: 102.9 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch12.csv
+
+📦 Batch 13/1511 (repos 61-65)
+  🔍 aws-samples/amazon-textract-textractor (⭐468)
+    ✅ AWS: Lambda, Textract
+    📝 Desc: Analyze documents with Amazon Textract and generate output in multiple formats....
+  🔍 aws-samples/ecs-blue-green-deployment (⭐461)
+    ✅ AWS: CloudFormation, CodeBuild, CodePipeline, ECS, Fargate
+    📝 Desc: Reference architecture for doing blue green deployments on ECS....
+  🔍 aws-samples/baseline-environment-on-aws (⭐451)
+    ✅ AWS: CDK, EC2, ECS
+    📝 Desc: Baseline Environment on AWS(BLEA) is a set of reference CDK template to establis...
+  🔍 aws-samples/amazon-textract-code-samples (⭐442)
+    ✅ AWS: Comprehend, OpenSearch, S3, Textract
+    📝 Desc: Amazon Textract Code Samples...
+  🔍 aws-samples/aws-service-catalog-reference-architectures (⭐441)
+    ✅ AWS: CloudFormation, CodePipeline, EC2, ECS, EMR
+    📝 Desc: Sample CloudFormation templates and architecture for AWS Service Catalog...
+  📊 Batch 13: 5/5 successful (2.6s)
+  📈 Overall: 65/65 successful, 0 failed
+  ⏱️  Estimated remaining: 102.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch13.csv
+
+📦 Batch 14/1511 (repos 66-70)
+  🔍 aws-samples/aws-cost-explorer-report (⭐441)
+    ✅ AWS: CloudFormation, IAM, Lambda, S3
+    📝 Desc: Python SAM Lambda module for generating an Excel cost report with graphs, includ...
+  🔍 aws-samples/aws-sam-java-rest (⭐437)
+    ✅ AWS: API Gateway, DynamoDB, Lambda
+    📝 Desc: A sample REST application built on SAM and DynamoDB that demonstrates testing wi...
+  🔍 aws-samples/aws-microservices-deploy-options (⭐435)
+    ✅ AWS: ECS, Fargate, Lambda
+    📝 Desc: This repo contains a simple application that consists of three microservices. Ea...
+  🔍 aws-samples/iam-identity-center-team (⭐435)
+    ✅ AWS: IAM
+    📝 Desc: Open-source temporary elevated access solution for AWS IAM Identity Center....
+  🔍 aws-samples/amazon-cognito-passwordless-auth (⭐432)
+    ✅ AWS: CDK, Cognito
+    📝 Desc: Passwordless authentication with Amazon Cognito: FIDO2 (WebAuthn, support for Pa...
+  📊 Batch 14: 5/5 successful (2.9s)
+  📈 Overall: 70/70 successful, 0 failed
+  ⏱️  Estimated remaining: 103.3 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch14.csv
+
+📦 Batch 15/1511 (repos 71-75)
+  🔍 aws-samples/amazon-sagemaker-notebook-instance-lifecycle-config-samples (⭐431)
+    ✅ AWS: EBS, EMR, SageMaker
+    📝 Desc: A collection of sample scripts to customize Amazon SageMaker Notebook Instances ...
+  🔍 aws-samples/amazon-sagemaker-from-idea-to-production (⭐431)
+    ✅ AWS: SageMaker
+    📝 Desc: This repository contains a sequence of Jupyter notebooks demonstrating how to mo...
+  🔍 aws-samples/bedrock-engineer (⭐422)
+    ✅ AWS: Bedrock
+    📝 Desc: Universal AI Agent using Amazon Bedrock, capable of customize to create/edit fil...
+  🔍 aws-samples/aws-saas-factory-bootcamp (⭐421)
+    ✅ AWS: CloudFormation, Cognito, IAM
+    📝 Desc: SaaS on AWS Bootcamp - Building SaaS Solutions on AWS...
+  🔍 aws-samples/amazon-cloudfront-secure-static-site (⭐407)
+    ✅ AWS: ACM, CloudFormation, CloudFront, S3
+    📝 Desc: Create a secure static website with CloudFront for your registered domain....
+  📊 Batch 15: 5/5 successful (4.0s)
+  📈 Overall: 75/75 successful, 0 failed
+  ⏱️  Estimated remaining: 105.5 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch15.csv
+
+📦 Batch 16/1511 (repos 76-80)
+  🔍 aws-samples/well-architected-iac-analyzer (⭐405)
+    ✅ AWS: Bedrock, CDK, CloudFormation
+    📝 Desc: Sample Generative AI tool for evaluating Infrastructure as Code and architecture...
+  🔍 aws-samples/amazon-elasticsearch-lambda-samples (⭐389)
+    ✅ AWS: EC2, IAM, Kinesis, Lambda, OpenSearch
+    📝 Desc: Data ingestion for Amazon Elasticsearch Service from S3 and Amazon Kinesis, usin...
+  🔍 aws-samples/sessions-with-aws-sam (⭐387)
+    ✅ AWS: API Gateway, Cognito, DynamoDB, EventBridge, Kinesis
+    📝 Desc: This repo contains all the SAM templates created in the Twitch series #SessionsW...
+  🔍 aws-samples/genai-quickstart-pocs (⭐384)
+    ✅ AWS: Athena, Bedrock, RDS, Redshift
+    📝 Desc: This repository contains sample code demonstrating various use cases leveraging ...
+  🔍 aws-samples/non-profit-blockchain (⭐379)
+    ✅ AWS: API Gateway, Cognito, Lambda
+    📝 Desc: Builds a blockchain network and application to track donations to non-profit org...
+  📊 Batch 16: 5/5 successful (2.8s)
+  📈 Overall: 80/80 successful, 0 failed
+  ⏱️  Estimated remaining: 105.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch16.csv
+
+📦 Batch 17/1511 (repos 81-85)
+  🔍 aws-samples/amazon-bedrock-client-for-mac (⭐379)
+    ✅ AWS: Bedrock
+    📝 Desc: A modern, native macOS client for Amazon Bedrock, providing streamlined access t...
+  🔍 aws-samples/amazon-rekognition-video-analyzer (⭐377)
+    ✅ AWS: API Gateway, CloudFormation, CloudWatch, DynamoDB, IAM
+    📝 Desc: A working prototype for capturing frames off of a live MJPEG video stream, ident...
+  🔍 aws-samples/aws-media-services-simple-vod-workflow (⭐376)
+    ✅ AWS: CloudFormation, IAM, Lambda, S3
+    📝 Desc: Lab that covers video conversion workflow for Video On Demand using AWS MediaCon...
+  🔍 aws-samples/amazon-nova-samples (⭐373)
+    ✅ AWS: Bedrock, IAM, SageMaker
+    📝 Desc: To get started with the code examples, ensure you have access to [Amazon Bedrock...
+  🔍 aws-samples/amazon-ecs-java-microservices (⭐370)
+    ✅ AWS: EBS, EC2, ECS, IAM
+    📝 Desc: This is a reference architecture for java microservice on Amazon ECS...
+  📊 Batch 17: 5/5 successful (4.2s)
+  📈 Overall: 85/85 successful, 0 failed
+  ⏱️  Estimated remaining: 107.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch17.csv
+
+📦 Batch 18/1511 (repos 86-90)
+  🔍 aws-samples/aws-health-aware (⭐366)
+    ✅ AWS: CloudFormation, EventBridge, Lambda
+    📝 Desc: AHA is an incident management & communication framework to provide real-time ale...
+  🔍 aws-samples/amazon-neptune-samples (⭐365)
+    ✅ AWS: CDK, Neptune
+    📝 Desc: Samples and documentation for using the Amazon Neptune graph database service...
+  🔍 aws-samples/php-examples-for-aws-lambda (⭐365)
+    ✅ AWS: API Gateway, Aurora, CDK, Lambda, RDS
+    📝 Desc: Demo serverless applications, examples code snippets and resources for PHP...
+  🔍 aws-samples/AWS-First-GenAI-Journey (⭐363)
+    ✅ AWS: Bedrock
+    📝 Desc: Welcome to the AWS First Generative AI Journey repository! This project serves a...
+  🔍 aws-samples/awsome-distributed-training (⭐357)
+    ✅ AWS: Batch, CloudFormation, EKS, S3, SageMaker
+    📝 Desc: Collection of best practices, reference architectures, model training examples a...
+  📊 Batch 18: 5/5 successful (1.9s)
+  📈 Overall: 90/90 successful, 0 failed
+  ⏱️  Estimated remaining: 106.5 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch18.csv
+
+📦 Batch 19/1511 (repos 91-95)
+  🔍 aws-samples/aws-secrets-manager-rotation-lambdas (⭐352)
+    ✅ AWS: Lambda, Secrets Manager
+    📝 Desc: Contains Lambda functions to be used for automatic rotation of secrets stored in...
+  🔍 aws-samples/aws-serverless-shopping-cart (⭐349)
+    ✅ AWS: API Gateway, Cognito, DynamoDB, Lambda, SQS
+    📝 Desc: Serverless Shopping Cart is a sample implementation of a serverless shopping car...
+  🔍 aws-samples/lambda-refarch-streamprocessing (⭐348)
+    ✅ AWS: CloudFormation, DynamoDB, IAM, Kinesis, Lambda
+    📝 Desc: Serverless Reference Architecture for Real-time Stream Processing...
+  🔍 aws-samples/aws-etl-orchestrator (⭐342)
+    ✅ AWS: Athena, CloudFormation, Glue, Lambda, RDS
+    📝 Desc: A serverless architecture for orchestrating ETL jobs in arbitrarily-complex work...
+  🔍 aws-samples/amazon-ecs-mythicalmysfits-workshop (⭐341)
+    ✅ AWS: Fargate, IAM
+    📝 Desc: A tutorial for developers who want to learn about how to containerized applicati...
+  📊 Batch 19: 5/5 successful (2.6s)
+  📈 Overall: 95/95 successful, 0 failed
+  ⏱️  Estimated remaining: 106.2 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch19.csv
+
+📦 Batch 20/1511 (repos 96-100)
+  🔍 aws-samples/serverless-test-samples (⭐341)
+    ✅ AWS: API Gateway, CDK, DynamoDB, Lambda, S3
+    📝 Desc: This repository is designed to provide guidance for implementing comprehensive t...
+  🔍 aws-samples/aws-deepcomposer-samples (⭐340)
+    ✅ AWS: General AWS
+    📝 Desc: Welcome to AWS DeepComposer. This repository includes: Licensing varies between ...
+  🔍 aws-samples/amazon-textract-serverless-large-scale-document-processing (⭐335)
+    ✅ AWS: Batch, CDK, CloudFormation, DynamoDB, Lambda
+    📝 Desc: Process documents at scale using Amazon Textract...
+  🔍 aws-samples/aws-iot-examples (⭐332)
+    ✅ AWS: CloudFormation, Lambda, SageMaker
+    📝 Desc: Examples using AWS IoT (Internet of Things). Deprecated. See README for updated ...
+  🔍 aws-samples/amazon-ecs-firelens-examples (⭐325)
+    ✅ AWS: CloudWatch, ECS, EFS, Fargate, Kinesis
+    📝 Desc: Sample logging architectures for FireLens on Amazon ECS and AWS Fargate....
+  📊 Batch 20: 5/5 successful (3.8s)
+  📈 Overall: 100/100 successful, 0 failed
+  ⏱️  Estimated remaining: 107.4 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch20.csv
+
+📦 Batch 21/1511 (repos 101-105)
+  🔍 aws-samples/create-react-app-auth-amplify (⭐324)
+    ✅ AWS: General AWS
+    📝 Desc: Implements a basic authentication flow for signing up/signing in users as well a...
+  🔍 aws-samples/mlops-amazon-sagemaker (⭐324)
+    ✅ AWS: SageMaker
+    📝 Desc: Workshop content for applying DevOps practices to Machine Learning workloads usi...
+  🔍 aws-samples/aws-saas-factory-eks-reference-architecture (⭐323)
+    ✅ AWS: EC2, EKS, IAM
+    📝 Desc: This repository provides a reference architecture for building an end to end Saa...
+  🔍 aws-samples/serverless-samples (⭐316)
+    ✅ AWS: API Gateway, Bedrock, ECS, Lambda
+    📝 Desc: This repository contains samples of Serverless application code....
+  🔍 aws-samples/aws-serverless-cicd-workshop (⭐315)
+    ✅ AWS: Lambda
+    📝 Desc: Learn how to build a CI/CD pipeline for SAM-based applications...
+  📊 Batch 21: 5/5 successful (2.9s)
+  📈 Overall: 105/105 successful, 0 failed
+  ⏱️  Estimated remaining: 107.5 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch21.csv
+
+📦 Batch 22/1511 (repos 106-110)
+  🔍 aws-samples/amazon-sagemaker-immersion-day (⭐315)
+    ✅ AWS: SageMaker
+    📝 Desc: Amazon SageMaker Immersion Day help customers and partners to provide end to end...
+  🔍 aws-samples/designing-cloud-native-microservices-on-aws (⭐310)
+    ✅ AWS: ALB, CloudWatch, DynamoDB, EBS, ECS
+    📝 Desc: Introduce a fluent way to design cloud native microservices via EventStorming wo...
+  🔍 aws-samples/lambda-go-samples (⭐309)
+    ✅ AWS: Lambda
+    📝 Desc: An example of using AWS Lambda with Go...
+  🔍 aws-samples/api-gateway-secure-pet-store (⭐308)
+    ✅ AWS: API Gateway, Cognito, DynamoDB, IAM, Lambda
+    📝 Desc: Amazon API Gateway sample using Amazon Cognito credentials through AWS Lambda...
+  🔍 aws-samples/amazon-bedrock-serverless-prompt-chaining (⭐308)
+    ✅ AWS: Bedrock, Lambda, S3, Step Functions
+    📝 Desc: Build complex, serverless, and highly scalable generative AI applications with p...
+  📊 Batch 22: 5/5 successful (3.6s)
+  📈 Overall: 110/110 successful, 0 failed
+  ⏱️  Estimated remaining: 108.4 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch22.csv
+
+📦 Batch 23/1511 (repos 111-115)
+  🔍 aws-samples/aws-nodejs-sample (⭐307)
+    ✅ AWS: S3
+    📝 Desc: Sample project to demonstrate usage of the AWS SDK for Node.js...
+  🔍 aws-samples/amazon-cognito-example-for-external-idp (⭐307)
+    ✅ AWS: API Gateway, CDK, CloudFormation, Cognito, DynamoDB
+    📝 Desc: An example for using Amazon Cognito together with an external IdP...
+  🔍 aws-samples/aws-cdk-intro-workshop (⭐303)
+    ✅ AWS: CDK
+    📝 Desc: Introduction to the AWS CDK - Workshop...
+  🔍 aws-samples/karpenter-blueprints (⭐303)
+    ✅ AWS: EKS, IAM
+    📝 Desc: Karpenter Blueprints is a list of common workload scenarios following best pract...
+  🔍 aws-samples/prompt-engineering-with-anthropic-claude-v-3 (⭐302)
+    ✅ AWS: Bedrock
+    📝 Desc: This course is intended to provide you with a comprehensive step-by-step underst...
+  📊 Batch 23: 5/5 successful (3.2s)
+  📈 Overall: 115/115 successful, 0 failed
+  ⏱️  Estimated remaining: 108.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch23.csv
+
+📦 Batch 24/1511 (repos 116-120)
+  🔍 aws-samples/aws-deployment-pipeline-reference-architecture (⭐301)
+    ✅ AWS: General AWS
+    📝 Desc: Reference architecture for deployment pipelines...
+  🔍 aws-samples/aws-ai-ml-workshop-kr (⭐300)
+    ✅ AWS: SageMaker
+    📝 Desc: A collection of localized (Korean) AWS AI/ML workshop materials for hands-on lab...
+  🔍 aws-samples/aws-cognito-apigw-angular-auth (⭐299)
+    ✅ AWS: API Gateway, CloudFormation, CloudFront, Cognito, DynamoDB
+    📝 Desc: A simple/sample AngularV4-based web app that demonstrates different API authenti...
+  🔍 aws-samples/serverless-rust-demo (⭐298)
+    ✅ AWS: API Gateway, CloudWatch, DynamoDB, Lambda
+    📝 Desc: Sample serverless application written in Rust...
+  🔍 aws-samples/lambda-ecs-worker-pattern (⭐292)
+    ✅ AWS: EC2, ECS, Lambda, S3, SQS
+    📝 Desc: This example code illustrates how to extend AWS Lambda functionality using Amazo...
+  📊 Batch 24: 5/5 successful (2.4s)
+  📈 Overall: 120/120 successful, 0 failed
+  ⏱️  Estimated remaining: 108.1 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch24.csv
+
+📦 Batch 25/1511 (repos 121-125)
+  🔍 aws-samples/aws-lambda-fanout (⭐289)
+    ✅ AWS: CloudWatch, DynamoDB, Kinesis, Lambda, OpenSearch
+    📝 Desc: A sample AWS Lambda function that accepts messages from an Amazon Kinesis Stream...
+  🔍 aws-samples/algorithmic-trading (⭐288)
+    ✅ AWS: Athena, Glue, S3, SageMaker
+    📝 Desc: In this workshop, participants will learn how to load and store financial data o...
+  🔍 aws-samples/serverless-pdf-chat (⭐288)
+    ✅ AWS: Bedrock, Cognito, DynamoDB, Lambda, S3
+    📝 Desc: LLM-powered document chat using Amazon Bedrock and AWS Serverless...
+  🔍 aws-samples/aws-serverless-samfarm (⭐284)
+    ✅ AWS: API Gateway, CloudFormation, CodeBuild, CodePipeline, Lambda
+    📝 Desc: This repo is full CI/CD Serverless example which was used in the What's New with...
+  🔍 aws-samples/aws-cdk-changelogs-demo (⭐283)
+    ✅ AWS: CDK, CloudFormation, CloudFront, Fargate, Lambda
+    📝 Desc: This is a demo application that uses modern serverless architecture to crawl cha...
+  📊 Batch 25: 5/5 successful (2.9s)
+  📈 Overall: 125/125 successful, 0 failed
+  ⏱️  Estimated remaining: 108.1 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch25.csv
+
+📦 Batch 26/1511 (repos 126-130)
+  🔍 aws-samples/eb-node-express-sample (⭐282)
+    ✅ AWS: DynamoDB, EC2, IAM, SNS
+    📝 Desc: Sample Express application for AWS Elastic Beanstalk...
+  🔍 aws-samples/aws-proton-cloudformation-sample-templates (⭐282)
+    ✅ AWS: CloudFormation
+    📝 Desc: Sample templates for AWS Proton...
+  🔍 aws-samples/private-llm-qa-bot (⭐282)
+    ✅ AWS: CDK
+    📝 Desc: &nbsp中文&nbsp ｜ <a href="README_EN.md">English</a>&nbsp 一个基于AWS服务和LangChain框架的生产级...
+  🔍 aws-samples/aws-containers-task-definitions (⭐274)
+    ✅ AWS: EC2, ECS
+    📝 Desc: Task Definitions for running common applications Amazon ECS...
+  🔍 aws-samples/aws-amplify-auth-starters (⭐274)
+    ✅ AWS: Lambda
+    📝 Desc: Starter projects for developers looking to build web & mobile applications that ...
+  📊 Batch 26: 5/5 successful (3.2s)
+  📈 Overall: 130/130 successful, 0 failed
+  ⏱️  Estimated remaining: 108.4 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch26.csv
+
+📦 Batch 27/1511 (repos 131-135)
+  🔍 aws-samples/codepipeline-nested-cfn (⭐271)
+    ✅ AWS: CloudFormation, CodeBuild, CodeCommit, CodePipeline, VPC
+    📝 Desc: CloudFormation templates, CodeBuild build specification & Python scripts to perf...
+  🔍 aws-samples/eb-py-flask-signup (⭐266)
+    ✅ AWS: DynamoDB, SNS
+    📝 Desc: This Python sample application uses the [Flask](http://flask.pocoo.org/) framewo...
+  🔍 aws-samples/step-functions-workflows-collection (⭐262)
+    ✅ AWS: Lambda, Step Functions
+    📝 Desc: Step Functions Workflows. Learn more at the website: https://serverlessland.com/...
+  🔍 aws-samples/image-optimization (⭐262)
+    ✅ AWS: CloudFront, Lambda, S3
+    📝 Desc: Simple, performant and cost efficient solution for optimizing images using Amazo...
+  🔍 aws-samples/service-control-policy-examples (⭐262)
+    ✅ AWS: IAM
+    📝 Desc: Example AWS Service control policies to get started or mature your usage of AWS ...
+  📊 Batch 27: 5/5 successful (3.2s)
+  📈 Overall: 135/135 successful, 0 failed
+  ⏱️  Estimated remaining: 108.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch27.csv
+
+📦 Batch 28/1511 (repos 136-140)
+  🔍 aws-samples/amazon-sagemaker-local-mode (⭐261)
+    ✅ AWS: ECS, SageMaker
+    📝 Desc: Amazon SageMaker Local Mode Examples...
+  🔍 aws-samples/one-observability-demo (⭐258)
+    ✅ AWS: CloudFormation, CloudWatch, CodePipeline, IAM, Lambda
+    📝 Desc: Sample microservice based application demonstrating observability capabilities o...
+  🔍 aws-samples/aws-machine-learning-university-dte (⭐258)
+    ✅ AWS: SageMaker
+    📝 Desc: Machine Learning University: Decision Trees and Ensemble Methods...
+  🔍 aws-samples/aws-arch-backoff-simulator (⭐255)
+    ✅ AWS: General AWS
+    📝 Desc: Simulator for AWS architecture blog (http://www.awsarchitectureblog.com/ ) about...
+  🔍 aws-samples/sagemaker-ssh-helper (⭐255)
+    ✅ AWS: Batch, IAM, SageMaker
+    📝 Desc: A helper library to connect into Amazon SageMaker with AWS Systems Manager and S...
+  📊 Batch 28: 5/5 successful (2.1s)
+  📈 Overall: 140/140 successful, 0 failed
+  ⏱️  Estimated remaining: 108.0 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch28.csv
+
+📦 Batch 29/1511 (repos 141-145)
+  🔍 aws-samples/generative-ai-amazon-bedrock-langchain-agent-example (⭐255)
+    ✅ AWS: Bedrock, DynamoDB
+    📝 Desc: - [Overview](#overview) - [Solution Architecture](#solution-architecture)...
+  🔍 aws-samples/aws-net-guides (⭐254)
+    ✅ AWS: General AWS
+    📝 Desc: .NET Developer step by step guides for building solutions on AWS...
+  🔍 aws-samples/aws-stepfunctions-examples (⭐254)
+    ✅ AWS: CDK, Rekognition, S3, Step Functions
+    📝 Desc: AWS Step Functions is an orchestration service for reliably executing multi-step...
+  🔍 aws-samples/foundation-model-benchmarking-tool (⭐254)
+    ✅ AWS: Batch, Bedrock, EC2, EKS, SageMaker
+    📝 Desc: Foundation model benchmarking tool. Run any model on any AWS platform and benchm...
+  🔍 aws-samples/lambda-refarch-iotbackend (⭐253)
+    ✅ AWS: CloudFormation, DynamoDB, Kinesis, Lambda, S3
+    📝 Desc: Serverless Reference Architecture for creating an IoT Backend...
+  📊 Batch 29: 5/5 successful (3.4s)
+  📈 Overall: 145/145 successful, 0 failed
+  ⏱️  Estimated remaining: 108.4 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch29.csv
+
+📦 Batch 30/1511 (repos 146-150)
+  🔍 aws-samples/aws-gamelift-sample (⭐251)
+    ✅ AWS: CloudFormation, CloudFront, DynamoDB, EC2, Lambda
+    📝 Desc: A simple full-stack game sample using GameLift and AWS services....
+  🔍 aws-samples/aws-dbs-refarch-graph (⭐251)
+    ✅ AWS: Neptune
+    📝 Desc: Reference Architectures for Graph Databases on AWS...
+  🔍 aws-samples/eb-java-scorekeep (⭐247)
+    ✅ AWS: CloudFormation, Cognito, DynamoDB, EC2, ECS
+    📝 Desc: RESTful web API in Java with Spring that provides an HTTP interface for creating...
+  🔍 aws-samples/aws-cloudfront-samples (⭐244)
+    ✅ AWS: CloudFront, EC2, Lambda, SNS
+    📝 Desc: Samples for use of AWS CloudFront, including Lambda functions, and SDK usage exa...
+  🔍 aws-samples/sample-devgenius-aws-solution-builder (⭐243)
+    ✅ AWS: Bedrock, CDK, CloudFormation, CloudFront, Cognito
+    📝 Desc: DevGenius is an AI-powered application that transforms project ideas into comple...
+  📊 Batch 30: 5/5 successful (3.7s)
+  📈 Overall: 150/150 successful, 0 failed
+  ⏱️  Estimated remaining: 109.0 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch30.csv
+
+📦 Batch 31/1511 (repos 151-155)
+  🔍 aws-samples/amazon-redshift-udfs (⭐242)
+    ✅ AWS: IAM, Lambda, Redshift, S3
+    📝 Desc: A collection of example UDFs for Amazon Redshift....
+  🔍 aws-samples/serverless-coffee (⭐242)
+    ✅ AWS: CloudFormation, Cognito, EventBridge, Lambda
+    📝 Desc: Serverlesspresso - The serverless coffee ordering application! As seen at AWS re...
+  🔍 aws-samples/aws-codebuild-samples (⭐239)
+    ✅ AWS: CloudFormation, CloudWatch, CodeBuild, CodeCommit, CodeDeploy
+    📝 Desc: Utilities and samples for building on CodeBuild...
+  🔍 aws-samples/amazon-dynamodb-design-patterns (⭐239)
+    ✅ AWS: DynamoDB
+    📝 Desc: This repo contains sample data models to demonstrate design patterns for Amazon ...
+  🔍 aws-samples/aws-java-sample (⭐237)
+    ✅ AWS: IAM, S3
+    📝 Desc: Sample project to demonstrate usage of the AWS SDK for Java...
+  📊 Batch 31: 5/5 successful (2.8s)
+  📈 Overall: 155/155 successful, 0 failed
+  ⏱️  Estimated remaining: 109.0 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch31.csv
+
+📦 Batch 32/1511 (repos 156-160)
+  🔍 aws-samples/aws-serverless-chatbot-sample (⭐237)
+    ✅ AWS: API Gateway, Lambda
+    📝 Desc: Reference code for running a Slack chatbot using AWS Lambda and Amazon API Gatew...
+  🔍 aws-samples/amazon-cognito-passwordless-email-auth (⭐237)
+    ✅ AWS: Cognito
+    📝 Desc: A sample implementation of Passwordless E-Mail Auth in Amazon Cognito...
+  🔍 aws-samples/aws-lambda-ddns-function (⭐236)
+    ✅ AWS: CloudWatch, DynamoDB, EC2, Lambda, Route53
+    📝 Desc: Dynamically create Route 53 resource records using CloudWatch Events and Lambda...
+  🔍 aws-samples/amazon-api-gateway-url-shortener (⭐236)
+    ✅ AWS: API Gateway, CloudFront, Cognito, DynamoDB, Lambda
+    📝 Desc: Creates a serverless URL shortener on AWS without using AWS Lambda or any other ...
+  🔍 aws-samples/aws-lambda-manage-rds-connections (⭐235)
+    ✅ AWS: Lambda, RDS
+    📝 Desc: Sample code for dynamically managing RDS/RDBMS connections across a fleet of Lam...
+  📊 Batch 32: 5/5 successful (3.7s)
+  📈 Overall: 160/160 successful, 0 failed
+  ⏱️  Estimated remaining: 109.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch32.csv
+
+📦 Batch 33/1511 (repos 161-165)
+  🔍 aws-samples/aws-auto-inventory (⭐234)
+    ✅ AWS: General AWS
+    📝 Desc: AWS Auto Inventory allows you to quickly and easily generate inventory reports o...
+  🔍 aws-samples/amazon-textract-response-parser (⭐233)
+    ✅ AWS: Batch, Textract
+    📝 Desc: Parse JSON response of Amazon Textract...
+  🔍 aws-samples/eks-multi-cluster-gitops (⭐232)
+    ✅ AWS: DynamoDB, EKS, RDS, S3, SQS
+    📝 Desc: Many organizations are interested in adopting GitOps for the benefits it brings,...
+  🔍 aws-samples/amazon-s3-presigned-urls-aws-sam (⭐231)
+    ✅ AWS: API Gateway, Lambda, S3
+    📝 Desc: For more serverless learning resources, visit https://serverlessland.com/....
+  🔍 aws-samples/sagemaker-custom-project-templates (⭐230)
+    ✅ AWS: Batch, CloudFormation, SageMaker
+    📝 Desc: This repository contains an example SageMaker Project template. Each folder in t...
+  📊 Batch 33: 5/5 successful (3.2s)
+  📈 Overall: 165/165 successful, 0 failed
+  ⏱️  Estimated remaining: 109.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch33.csv
+
+📦 Batch 34/1511 (repos 166-170)
+  🔍 aws-samples/aws-fargate-fast-autoscaler (⭐226)
+    ✅ AWS: ALB, CDK, EC2, ECS, ELB
+    📝 Desc: AWS Fargate Fast Autosaler - A Serverless Implementation that Triggers your Farg...
+  🔍 aws-samples/s3-to-lambda-patterns (⭐225)
+    ✅ AWS: DynamoDB, EventBridge, Lambda, S3
+    📝 Desc: Example applications for the S3-to-Lambda patterns series in the AWS Compute Blo...
+  🔍 aws-samples/cookiecutter-aws-sam-python (⭐223)
+    ✅ AWS: CodeDeploy, Lambda
+    📝 Desc: A Cookiecutter template to create a Serverless App based on Serverless Applicati...
+  🔍 aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch (⭐220)
+    ✅ AWS: Bedrock
+    📝 Desc: RAG with langchain using Amazon Bedrock and Amazon OpenSearch...
+  🔍 aws-samples/anthropic-on-aws (⭐219)
+    ✅ AWS: General AWS
+    📝 Desc: This repo contains a collection of examples and notebooks for using Anthropic on...
+  📊 Batch 34: 5/5 successful (3.3s)
+  📈 Overall: 170/170 successful, 0 failed
+  ⏱️  Estimated remaining: 110.2 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch34.csv
+
+📦 Batch 35/1511 (repos 171-175)
+  🔍 aws-samples/jp-contents-hub (⭐218)
+    ✅ AWS: Athena, Aurora, Bedrock, CloudFront, ECS
+    📝 Desc: AWS の日本語用ハンズオンなどを掲載するウェブサイト...
+  🔍 aws-samples/serverless-sinatra-sample (⭐213)
+    ✅ AWS: CloudFormation, CodeBuild, CodePipeline, Lambda, S3
+    📝 Desc: Demo code for running Ruby Sinatra on AWS Lambda...
+  🔍 aws-samples/sample-serverless-mcp-servers (⭐208)
+    ✅ AWS: API Gateway, CDK, Cognito, ECS, Lambda
+    📝 Desc: Sample implementations of AI Agents and MCP Servers running on AWS Serverless co...
+  🔍 aws-samples/aws-python-sample (⭐207)
+    ✅ AWS: IAM, S3
+    📝 Desc: Sample project to demonstrate usage of the AWS SDK for Python...
+  🔍 aws-samples/amazon-sumerian-hosts (⭐207)
+    ✅ AWS: Polly
+    📝 Desc: Amazon Sumerian Hosts (Hosts) is an experimental open source project that aims t...
+  📊 Batch 35: 5/5 successful (2.7s)
+  📈 Overall: 175/175 successful, 0 failed
+  ⏱️  Estimated remaining: 110.0 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch35.csv
+
+📦 Batch 36/1511 (repos 176-180)
+  🔍 aws-samples/aws-ai-intelligent-document-processing (⭐206)
+    ✅ AWS: CloudFormation, Comprehend, EKS, IAM, S3
+    📝 Desc: Intelligent Document Processing with AWS AI Services and generative AI...
+  🔍 aws-samples/serverless-rag-demo (⭐204)
+    ✅ AWS: Bedrock
+    📝 Desc: Amazon Bedrock Foundation models with Amazon Opensearch Serverless as a Vector D...
+  🔍 aws-samples/aws-batch-genomics (⭐203)
+    ✅ AWS: Batch, CloudFormation, ECS, Step Functions
+    📝 Desc: Software sets up and runs an genome sequencing analysis workflow using AWS Batch...
+  🔍 aws-samples/aws-cdk-stack-builder-tool (⭐203)
+    ✅ AWS: CDK
+    📝 Desc: AWS CDK Builder is a browser-based tool designed to streamline bootstrapping of ...
+  🔍 aws-samples/amazon-sagemaker-architecting-for-ml (⭐200)
+    ✅ AWS: EC2, S3, SageMaker
+    📝 Desc: Materials for a 2-day instructor led course on applying machine learning...
+  📊 Batch 36: 5/5 successful (3.4s)
+  📈 Overall: 180/180 successful, 0 failed
+  ⏱️  Estimated remaining: 110.3 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch36.csv
+
+📦 Batch 37/1511 (repos 181-185)
+  🔍 aws-samples/amazon-k8s-node-drainer (⭐198)
+    ✅ AWS: EC2, EKS, IAM, Lambda, S3
+    📝 Desc: Gracefully drain Kubernetes pods from EKS worker nodes during autoscaling scale-...
+  🔍 aws-samples/amazon-bedrock-agents-healthcare-lifesciences (⭐198)
+    ✅ AWS: Bedrock, IAM
+    📝 Desc: > **⚠️ Important Update (September 17, 2025):** The new recommended way to deplo...
+  🔍 aws-samples/amazon-lex-connect-workshop (⭐197)
+    ✅ AWS: IAM, Lambda
+    📝 Desc: This is a self paced workshop to get started on Amazon Connect and Amazon Lex to...
+  🔍 aws-samples/keycloak-on-aws (⭐197)
+    ✅ AWS: ACM, Aurora, CDK, ECS, Fargate
+    📝 Desc: This is a solution for deploying Keycloak to AWS with high availability....
+  🔍 aws-samples/aws-reinvent-trivia-game (⭐196)
+    ✅ AWS: CDK, CloudFormation, CloudFront, ECS, EKS
+    📝 Desc: Sample trivia game built with AWS Fargate. See https://www.reinvent-trivia.com...
+  📊 Batch 37: 5/5 successful (3.8s)
+  📈 Overall: 185/185 successful, 0 failed
+  ⏱️  Estimated remaining: 110.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch37.csv
+
+📦 Batch 38/1511 (repos 186-190)
+  🔍 aws-samples/amazon-eks-cicd-codebuild (⭐196)
+    ✅ AWS: CDK, CodeBuild, CodeCommit, EKS, IAM
+    📝 Desc: Amazon EKS CI/CD with CodeBuild in AWS CDK...
+  🔍 aws-samples/ecs-deep-learning-workshop (⭐194)
+    ✅ AWS: CloudFormation, CloudWatch, EC2, ECS, IAM
+    📝 Desc: Material for re:Invent 2016 - CON314 - Workshop: Deploy a Deep Learning Framewor...
+  🔍 aws-samples/serverless-graalvm-demo (⭐193)
+    ✅ AWS: API Gateway, CDK, CloudFormation, CloudWatch, DynamoDB
+    📝 Desc: Sample serverless application written in Java compiled with GraalVM native-image...
+  🔍 aws-samples/aws-kube-code-service (⭐192)
+    ✅ AWS: CloudFormation, CodeBuild, CodeCommit, CodePipeline, EKS
+    📝 Desc: The Code Services Continuous Deployment reference architecture demonstrates how ...
+  🔍 aws-samples/data-engineering-for-aws-immersion-day (⭐192)
+    ✅ AWS: Athena, CloudFormation, Glue, IAM, QuickSight
+    📝 Desc: Lab Instructions for Data Engineering Immersion Day...
+  📊 Batch 38: 5/5 successful (3.5s)
+  📈 Overall: 190/190 successful, 0 failed
+  ⏱️  Estimated remaining: 111.1 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch38.csv
+
+📦 Batch 39/1511 (repos 191-195)
+  🔍 aws-samples/aws-cdk-project-structure-python (⭐191)
+    ✅ AWS: API Gateway, CDK, DynamoDB, Lambda
+    📝 Desc: Recommended AWS CDK project structure for Python applications...
+  🔍 aws-samples/resource-control-policy-examples (⭐190)
+    ✅ AWS: IAM
+    📝 Desc: Example AWS Resource control policies to get started or mature your usage of AWS...
+  🔍 aws-samples/amazon-eks-custom-amis (⭐189)
+    ✅ AWS: EKS, VPC
+    📝 Desc: Amazon EKS custom AMIs based on Amazon Linux...
+  🔍 aws-samples/aws-mcp-servers-samples (⭐189)
+    ✅ AWS: General AWS
+    📝 Desc: This repo is not maintained as AWS official sample. It has been moved to a perso...
+  🔍 aws-samples/amazon-ecs-fullstack-app-terraform (⭐188)
+    ✅ AWS: CloudWatch, CodeBuild, CodeDeploy, CodePipeline, DynamoDB
+    📝 Desc: Fullstack app using Amazon ECS & DevOps methodologies (IaC with Terraform and CI...
+  📊 Batch 39: 5/5 successful (2.9s)
+  📈 Overall: 195/195 successful, 0 failed
+  ⏱️  Estimated remaining: 111.0 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch39.csv
+
+📦 Batch 40/1511 (repos 196-200)
+  🔍 aws-samples/sample-agentic-frameworks-on-aws (⭐188)
+    ✅ AWS: Bedrock, SageMaker
+    📝 Desc: Build Agentic AI solutions on AWS, using latest OSS Agentic Frameworks....
+  🔍 aws-samples/aws-database-migration-samples (⭐185)
+    ✅ AWS: General AWS
+    📝 Desc: A set of sample database and associated items to allow customers to among other ...
+  🔍 aws-samples/amplify-next-template (⭐185)
+    ✅ AWS: Cognito, DynamoDB
+    📝 Desc: This is a Next.js starter for building a fullstack app with AWS Amplify....
+  🔍 aws-samples/appsync-refarch-realtime (⭐184)
+    ✅ AWS: DynamoDB, IAM, Lambda
+    📝 Desc: AWS AppSync Real-Time Reference Architecture...
+  🔍 aws-samples/aws-serverless-appsync-app (⭐183)
+    ✅ AWS: DynamoDB, IAM, Lambda, S3
+    📝 Desc: This workshop shows you how to build a Web Application that demonstrates how eas...
+  📊 Batch 40: 5/5 successful (2.2s)
+  📈 Overall: 200/200 successful, 0 failed
+  ⏱️  Estimated remaining: 110.5 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch40.csv
+
+📦 Batch 41/1511 (repos 201-205)
+  🔍 aws-samples/data-perimeter-policy-examples (⭐183)
+    ✅ AWS: EC2, IAM, S3
+    📝 Desc: Example policies demonstrating how to implement a data perimeter on AWS....
+  🔍 aws-samples/amazon-sagemaker-build-train-deploy (⭐182)
+    ✅ AWS: API Gateway, Lambda, S3, SageMaker
+    📝 Desc: Scale complete ML development with Amazon SageMaker Studio...
+  🔍 aws-samples/amazon-s3-resumable-upload (⭐181)
+    ✅ AWS: EC2, S3
+    📝 Desc: S3 Resumable Migration Version 2 ( S3 断点续传迁移 Version 2)...
+  🔍 aws-samples/aws-cdk-project-template-for-devops (⭐180)
+    ✅ AWS: CDK, CloudFormation
+    📝 Desc: This repository provides best practices and template framework for developing AW...
+  🔍 aws-samples/remote-swe-agents (⭐180)
+    ✅ AWS: Bedrock, CDK, ECS, Lambda
+    📝 Desc: Autonomous SWE agent working in the cloud! (a.k.a. Vibe coding with Bedrock)...
+  📊 Batch 41: 5/5 successful (2.7s)
+  📈 Overall: 205/205 successful, 0 failed
+  ⏱️  Estimated remaining: 110.3 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch41.csv
+
+📦 Batch 42/1511 (repos 206-210)
+  🔍 aws-samples/serverless-data-analytics (⭐177)
+    ✅ AWS: Athena, CloudFormation, EC2, Glue, QuickSight
+    📝 Desc: CloudFormation templates and scripts to setup the AWS services for the workshop,...
+  🔍 aws-samples/amazon-cloudwatch-container-insights (⭐177)
+    ✅ AWS: CloudWatch, EKS
+    📝 Desc: CloudWatch Agent Dockerfile and K8s YAML templates for CloudWatch Container Insi...
+  🔍 aws-samples/talk-dev-to-me-twitch (⭐177)
+    ✅ AWS: Lambda
+    📝 Desc: This repo is a collection of code samples and links to previous twitch live stre...
+  🔍 aws-samples/aws-device-farm-sample-app-for-android (⭐176)
+    ✅ AWS: General AWS
+    📝 Desc: AWS Device Farm sample Android app...
+  🔍 aws-samples/websocket-chat-application (⭐175)
+    ✅ AWS: API Gateway, CDK, CloudFront, CloudWatch, Cognito
+    📝 Desc: This sample provides a CDK project that allows you to deploy a serverless chat a...
+  📊 Batch 42: 5/5 successful (2.9s)
+  📈 Overall: 210/210 successful, 0 failed
+  ⏱️  Estimated remaining: 110.2 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch42.csv
+
+📦 Batch 43/1511 (repos 211-215)
+  🔍 aws-samples/ecs-demo-php-simple-app (⭐174)
+    ✅ AWS: ECS
+    📝 Desc: A simple PHP sample application  http://aws.amazon.com/ecs...
+  🔍 aws-samples/data-lake-as-code (⭐173)
+    ✅ AWS: CDK, Glue, IAM, S3
+    📝 Desc: Data Lake as Code, featuring ChEMBL and OpenTargets...
+  🔍 aws-samples/awesome-sagemaker (⭐173)
+    ✅ AWS: SageMaker
+    📝 Desc: A curated list of references for Amazon SageMaker...
+  🔍 aws-samples/cdk-eks-blueprints-patterns (⭐172)
+    ✅ AWS: CDK, EKS
+    📝 Desc: Patterns repository for the Amazon EKS Bluepints for CDK...
+  🔍 aws-samples/amazon-sagemaker-generativeai (⭐172)
+    ✅ AWS: SageMaker
+    📝 Desc: Repository for training and deploying Generative AI models, including text-text,...
+  📊 Batch 43: 5/5 successful (3.0s)
+  📈 Overall: 215/215 successful, 0 failed
+  ⏱️  Estimated remaining: 110.2 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch43.csv
+
+📦 Batch 44/1511 (repos 216-220)
+  🔍 aws-samples/amazon-sagemaker-script-mode (⭐171)
+    ✅ AWS: Batch, Lambda, SageMaker
+    📝 Desc: Amazon SageMaker examples for prebuilt framework mode containers, a.k.a. Script ...
+  🔍 aws-samples/langgraph-agents-with-amazon-bedrock (⭐171)
+    ✅ AWS: Bedrock
+    📝 Desc: This repository contains a workshop adapted from the course [AI Agents in LangGr...
+  🔍 aws-samples/aws-media-services-simple-live-workflow (⭐170)
+    ✅ AWS: CloudFormation, CloudFront, CloudWatch, IAM
+    📝 Desc: Workshop that covers AWS Elemental MediaLive, MediaPackage, and MediaTailor serv...
+  🔍 aws-samples/amazon-ecs-catsndogs-workshop (⭐170)
+    ✅ AWS: CloudFormation, EC2, ECS, IAM, S3
+    📝 Desc: This is self-paced workshop designed to allow developers and system administrato...
+  🔍 aws-samples/mturk-code-samples (⭐169)
+    ✅ AWS: General AWS
+    📝 Desc: Code samples to help you get started with the Amazon Mechanical Turk Requester A...
+  📊 Batch 44: 5/5 successful (4.3s)
+  📈 Overall: 220/220 successful, 0 failed
+  ⏱️  Estimated remaining: 110.9 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch44.csv
+
+📦 Batch 45/1511 (repos 221-225)
+  🔍 aws-samples/ecs-canary-blue-green-deployment (⭐169)
+    ✅ AWS: ALB, EC2, ECS, Fargate, IAM
+    📝 Desc: Example code for demonstrating a canary "blue-green" deployment strategy for use...
+  🔍 aws-samples/machine-learning-using-k8s (⭐169)
+    ✅ AWS: EKS, Fargate
+    📝 Desc: Train and Deploy Machine Learning Models on Kubernetes using Amazon EKS...
+  🔍 aws-samples/emr-serverless-samples (⭐168)
+    ✅ AWS: CDK, CloudFormation, EMR, Glue, IAM
+    📝 Desc: Example code for running Spark and Hive jobs on EMR Serverless....
+  🔍 aws-samples/aws-codepipeline-s3-codedeploy-linux (⭐167)
+    ✅ AWS: CodePipeline, S3
+    📝 Desc: Use this sample when creating a simple pipeline in AWS CodePipeline while follow...
+  🔍 aws-samples/aws-ml-jp (⭐167)
+    ✅ AWS: Rekognition, SageMaker
+    📝 Desc: SageMakerで機械学習モデルを構築、学習、デプロイする方法が学べるNotebookと教材集...
+  📊 Batch 45: 5/5 successful (2.8s)
+  📈 Overall: 225/225 successful, 0 failed
+  ⏱️  Estimated remaining: 110.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch45.csv
+
+📦 Batch 46/1511 (repos 226-230)
+  🔍 aws-samples/generative-bi-using-rag (⭐167)
+    ✅ AWS: Bedrock, CDK, RDS, Redshift
+    📝 Desc: A solution guidance for Generative BI using Amazon Bedrock, Amazon OpenSearch wi...
+  🔍 aws-samples/eb-php-wordpress (⭐166)
+    ✅ AWS: EFS, RDS
+    📝 Desc: Configuration files and instructions for installing WordPress securely and runni...
+  🔍 aws-samples/amazon-bedrock-rag (⭐166)
+    ✅ AWS: API Gateway, Bedrock, Lambda, S3, WAF
+    📝 Desc: Fully managed RAG solution implemented using Knowledge Bases for Amazon Bedrock...
+  🔍 aws-samples/aws-sagemaker-build (⭐165)
+    ✅ AWS: CloudFormation, Lambda, S3, SageMaker
+    📝 Desc: Creates a CloudFormation template that uses AWS StepFunctions to automate the bu...
+  🔍 aws-samples/amazon-dynamodb-labs (⭐165)
+    ✅ AWS: DynamoDB, S3
+    📝 Desc: Hands on workshop and design scenarios for Amazon DynamoDB...
+  📊 Batch 46: 5/5 successful (2.7s)
+  📈 Overall: 230/230 successful, 0 failed
+  ⏱️  Estimated remaining: 110.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch46.csv
+
+📦 Batch 47/1511 (repos 231-235)
+  🔍 aws-samples/aws-ecs-devops-using-aws-cdk (⭐165)
+    ✅ AWS: CDK, ECS, SageMaker
+    📝 Desc: This repository provides a general DevOps practices such MSA, IaC, CICD and Moni...
+  🔍 aws-samples/aws-sdk-unity-samples (⭐164)
+    ✅ AWS: Cognito, DynamoDB, S3
+    📝 Desc: This repository has samples that demonstrate various aspects of the AWS Mobile S...
+  🔍 aws-samples/amazon-kendra-langchain-extensions (⭐163)
+    ✅ AWS: General AWS
+    📝 Desc: Samples to build Generative AI applications with LangChain and Amazon Kendra...
+  🔍 aws-samples/comfyui-on-eks (⭐163)
+    ✅ AWS: ALB, API Gateway, CDK, CloudFront, Cognito
+    📝 Desc: ComfyUI on AWS...
+  🔍 aws-samples/apn-blog (⭐162)
+    ✅ AWS: General AWS
+    📝 Desc: APN Blog article code and configurations....
+  📊 Batch 47: 5/5 successful (2.9s)
+  📈 Overall: 235/235 successful, 0 failed
+  ⏱️  Estimated remaining: 110.5 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch47.csv
+
+📦 Batch 48/1511 (repos 236-240)
+  🔍 aws-samples/lambda-refarch-image-moderation-chatbot (⭐162)
+    ✅ AWS: API Gateway, CloudFormation, Lambda, Rekognition
+    📝 Desc: The Image Moderator Chatbot serverless reference architecture demonstrates how t...
+  🔍 aws-samples/serverless-dotnet-demo (⭐162)
+    ✅ AWS: API Gateway, DynamoDB, Lambda
+    📝 Desc: With the release of .NET 8 [AWS Lambda](https://aws.amazon.com/lambda/) now supp...
+  🔍 aws-samples/serverless-snippets (⭐162)
+    ✅ AWS: CloudWatch, Lambda
+    📝 Desc: Snippets of code used for Serverless Development. Code examples hosted on server...
+  🔍 aws-samples/dify-aws-tool (⭐162)
+    ✅ AWS: Bedrock, CloudFormation, EKS, S3, SageMaker
+    📝 Desc: <a href="https://github.com/aws-samples/dify-aws-tool/blob/main/workflow/README....
+  🔍 aws-samples/terraform-eks-code (⭐161)
+    ✅ AWS: EKS, VPC
+    📝 Desc: This code repo is intended to be used with the public AWS workshop: https://tf-e...
+  📊 Batch 48: 5/5 successful (4.7s)
+  📈 Overall: 240/240 successful, 0 failed
+  ⏱️  Estimated remaining: 111.3 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch48.csv
+
+📦 Batch 49/1511 (repos 241-245)
+  🔍 aws-samples/dify-self-hosted-on-aws (⭐160)
+    ✅ AWS: Aurora, Bedrock, CDK, ECS, Fargate
+    📝 Desc: Self-host Dify on AWS...
+  🔍 aws-samples/cfn101-workshop (⭐159)
+    ✅ AWS: CloudFormation
+    📝 Desc: AWS CloudFormation Workshop...
+  🔍 aws-samples/eks-cluster-upgrade (⭐159)
+    ✅ AWS: EC2, EKS, IAM
+    📝 Desc: Automated Amazon EKS cluster upgrade...
+  🔍 aws-samples/serverless-java-frameworks-samples (⭐159)
+    ✅ AWS: API Gateway, DynamoDB, Lambda
+    📝 Desc: This is a simple serverless application built in Java using popular frameworks —...
+  🔍 aws-samples/sample-serverless-dify-stack (⭐159)
+    ✅ AWS: CDK, CloudFormation, ELB
+    📝 Desc: Deploy high availability Dify clusters using Amazon serverless services with AWS...
+  📊 Batch 49: 5/5 successful (2.8s)
+  📈 Overall: 245/245 successful, 0 failed
+  ⏱️  Estimated remaining: 111.1 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch49.csv
+
+📦 Batch 50/1511 (repos 246-250)
+  🔍 aws-samples/amazon-serverless-datalake-workshop (⭐158)
+    ✅ AWS: Athena, CloudFormation, Glue, IAM, Kinesis
+    📝 Desc: A workshop demonstrating the capabilities of S3, Athena, Glue, Kinesis, and Quic...
+  🔍 aws-samples/aws-analytics-reference-architecture (⭐158)
+    ✅ AWS: CDK
+    📝 Desc: **this project is deprecated in favor of the [AWS Data Solutions Framework](http...
+  🔍 aws-samples/aws-serverless-saas-workshop (⭐158)
+    ✅ AWS: API Gateway, CloudWatch, CodePipeline, Cognito, DynamoDB
+    📝 Desc: The goal of this workshop is to build a multi-tenant Software-as-a-Service (SaaS...
+  🔍 aws-samples/bedrock-multi-agents-collaboration-workshop (⭐158)
+    ✅ AWS: Bedrock
+    📝 Desc: This public AWS workshop showcases the new Amazon Bedrock Agents feature - [mult...
+  🔍 aws-samples/aws-bootstrap-kit-examples (⭐157)
+    ✅ AWS: CDK
+    📝 Desc: Current package is deprecated and will not be maintained anymore. AWS Bootstrap ...
+  📊 Batch 50: 5/5 successful (5.2s)
+  📈 Overall: 250/250 successful, 0 failed
+  ⏱️  Estimated remaining: 112.2 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch50.csv
+
+📦 Batch 51/1511 (repos 251-255)
+  🔍 aws-samples/aws-lambda-deploy (⭐156)
+    ✅ AWS: CloudFormation, CloudWatch, Lambda, Step Functions
+    📝 Desc: A collection of tools to enable canary deployments of AWS Lambda functions....
+  🔍 aws-samples/aws-lambda-hexagonal-architecture (⭐156)
+    ✅ AWS: API Gateway, DynamoDB, Lambda
+    📝 Desc: Implementing hexagonal architecture on AWS Lambda with Node.js...
+  🔍 aws-samples/amazon-bedrock-rag-workshop (⭐156)
+    ✅ AWS: Bedrock
+    📝 Desc: Workshop Studio...
+  🔍 aws-samples/amazon-bedrock-aistylist-lab (⭐155)
+    ✅ AWS: Bedrock, IAM, SageMaker
+    📝 Desc: Welcome to the AI Stylist Lab! This lab explores some of the most common usage p...
+  🔍 aws-samples/serverless-full-stack-webapp-starter-kit (⭐154)
+    ✅ AWS: Aurora, CDK, CloudFront, CloudWatch, Cognito
+    📝 Desc: Full stack webapp kit to leverage the power of serverless!...
+  📊 Batch 51: 5/5 successful (3.9s)
+  📈 Overall: 255/255 successful, 0 failed
+  ⏱️  Estimated remaining: 112.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch51.csv
+
+📦 Batch 52/1511 (repos 256-260)
+  🔍 aws-samples/amazon-sagemaker-mlflow-fargate (⭐153)
+    ✅ AWS: CDK, Fargate, RDS, S3, SageMaker
+    📝 Desc: Managing your machine learning lifecycle with MLflow and Amazon SageMaker...
+  🔍 aws-samples/aws-serverless-ai-stories (⭐153)
+    ✅ AWS: CDK, DynamoDB, EventBridge, Lambda, Polly
+    📝 Desc: Example open source event-driven application that generates a new bed time story...
+  🔍 aws-samples/generative-ai-cdk-constructs-samples (⭐153)
+    ✅ AWS: Bedrock, CDK, Lambda, S3, SageMaker
+    📝 Desc: This repo provides sample generative AI stacks built atop the AWS Generative AI ...
+  🔍 aws-samples/ecs-refarch-batch-processing (⭐151)
+    ✅ AWS: Batch, CloudFormation, CloudWatch, ECS, IAM
+    📝 Desc: A reference architecture for handling batch processing workloads using Amazon EC...
+  🔍 aws-samples/elasticache-refarch-chatapp (⭐151)
+    ✅ AWS: CloudFormation, EC2, S3, VPC
+    📝 Desc: Example architecture for building a chat application using ElastiCache for Redis...
+  📊 Batch 52: 5/5 successful (3.1s)
+  📈 Overall: 260/260 successful, 0 failed
+  ⏱️  Estimated remaining: 112.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch52.csv
+
+📦 Batch 53/1511 (repos 261-265)
+  🔍 aws-samples/aws-lambda-layer-awscli (⭐151)
+    ✅ AWS: CDK, Lambda
+    📝 Desc: AWS Lambda Layer for AWS CLI...
+  🔍 aws-samples/serverless-typescript-demo (⭐151)
+    ✅ AWS: API Gateway, CDK, CloudFormation, CloudWatch, DynamoDB
+    📝 Desc: <img src="imgs/diagram.png" alt="Architecture diagram"/> This is a simple server...
+  🔍 aws-samples/aws-marketplace-serverless-saas-integration (⭐150)
+    ✅ AWS: Lambda, S3
+    📝 Desc: Example of serverless integration for SaaS products listed on the AWS Marketplac...
+  🔍 aws-samples/jupyter-notebook-for-incident-response (⭐150)
+    ✅ AWS: Athena, CloudFormation, CloudTrail, CodeCommit, IAM
+    📝 Desc: A library of Incident Response notebooks using Jupyter. We will show how you can...
+  🔍 aws-samples/aws-refarch-moodle (⭐149)
+    ✅ AWS: ACM, Aurora, CloudFormation, CloudFront, EC2
+    📝 Desc: Moodle Reference Architecture with supporting Cloud Formation templates...
+  📊 Batch 53: 5/5 successful (3.2s)
+  📈 Overall: 265/265 successful, 0 failed
+  ⏱️  Estimated remaining: 112.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch53.csv
+
+📦 Batch 54/1511 (repos 266-270)
+  🔍 aws-samples/aws-account-vending-machine (⭐149)
+    ✅ AWS: CloudFormation, IAM, Lambda
+    📝 Desc: This repository contains various versions of the account vending machine used to...
+  🔍 aws-samples/mlops-e2e (⭐149)
+    ✅ AWS: CDK, CloudFormation, CodeCommit, CodePipeline, SageMaker
+    📝 Desc: MLOps End-to-End Example using Amazon SageMaker Pipeline, AWS CodePipeline and A...
+  🔍 aws-samples/sample_agentic_ai_strands (⭐149)
+    ✅ AWS: Bedrock, CDK, ECS
+    📝 Desc: 本方案对应blog:[亚马逊云科技中国区构建 Agentic AI 应用实践指南](https://aws.amazon.com/cn/blogs/china/...
+  🔍 aws-samples/eb-demo-php-simple-app (⭐148)
+    ✅ AWS: RDS
+    📝 Desc: This demo app shows you how to run a simple PHP application on AWS Elastic Beans...
+  🔍 aws-samples/aws-secret-sidecar-injector (⭐148)
+    ✅ AWS: EKS, IAM, Secrets Manager
+    📝 Desc: Kubernetes mutating webhook to fetch secrets from AWS Secrets Manager...
+  📊 Batch 54: 5/5 successful (3.7s)
+  📈 Overall: 270/270 successful, 0 failed
+  ⏱️  Estimated remaining: 112.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch54.csv
+
+📦 Batch 55/1511 (repos 271-275)
+  🔍 aws-samples/sagemaker-distributed-training-workshop (⭐148)
+    ✅ AWS: Batch, SageMaker
+    📝 Desc: Hands-on workshop for distributed training and hosting on SageMaker...
+  🔍 aws-samples/aws-genomics-workflows (⭐147)
+    ✅ AWS: Batch, CloudFormation, S3
+    📝 Desc: Genomics Workflows on AWS...
+  🔍 aws-samples/aws-lambda-layer-kubectl (⭐147)
+    ✅ AWS: CDK, Lambda
+    📝 Desc: AWS Lambda Layer with kubectl and Helm...
+  🔍 aws-samples/amazon-efs-tutorial (⭐146)
+    ✅ AWS: CloudFormation, CloudWatch, EC2, EFS, Lambda
+    📝 Desc: This tutorial is designed to help you better understand the performance characte...
+  🔍 aws-samples/amazon-kinesis-data-analytics-examples (⭐146)
+    ✅ AWS: Kinesis
+    📝 Desc: Example applications in Java, Python and SQL for Kinesis Data Analytics, demonst...
+  📊 Batch 55: 5/5 successful (3.3s)
+  📈 Overall: 275/275 successful, 0 failed
+  ⏱️  Estimated remaining: 112.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch55.csv
+
+📦 Batch 56/1511 (repos 276-280)
+  🔍 aws-samples/eb-docker-nginx-proxy (⭐145)
+    ✅ AWS: IAM
+    📝 Desc: This demo app shows you how to run a simple PHP application using the [PHP-FPM](...
+  🔍 aws-samples/eks-workshop-greater-china (⭐145)
+    ✅ AWS: EKS
+    📝 Desc: AWS Workshop for Learning EKS for Greater China...
+  🔍 aws-samples/sagemaker-run-notebook (⭐145)
+    ✅ AWS: CloudFormation, SageMaker
+    📝 Desc: Tools to run Jupyter notebooks as jobs in Amazon SageMaker - ad hoc, on a schedu...
+  🔍 aws-samples/sagemaker-studio-auto-shutdown-extension (⭐145)
+    ✅ AWS: SageMaker
+    📝 Desc: This Jupyter extension automatically shuts down KernelGateway Apps, Kernels and ...
+  🔍 aws-samples/serverless-trivia-game (⭐145)
+    ✅ AWS: DynamoDB, Lambda, Step Functions
+    📝 Desc: The Simple Trivia Service example serverless web game. See the Compute Blog seri...
+  📊 Batch 56: 5/5 successful (4.0s)
+  📈 Overall: 280/280 successful, 0 failed
+  ⏱️  Estimated remaining: 113.2 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch56.csv
+
+📦 Batch 57/1511 (repos 281-285)
+  🔍 aws-samples/openbanking-brazilian-auth-samples (⭐145)
+    ✅ AWS: ACM, API Gateway, CDK, Lambda, Route53
+    📝 Desc: This repo intends to demonstrate how to address the OAuth2-based authorization s...
+  🔍 aws-samples/eks-blueprints-add-ons (⭐145)
+    ✅ AWS: CloudWatch, EKS
+    📝 Desc: Welcome to the EKS Blueprints Add-ons repository. This repository contains GitOp...
+  🔍 aws-samples/aws-codedeploy-github-actions-deployment (⭐144)
+    ✅ AWS: CloudFormation, CodeDeploy, EC2, ECS, IAM
+    📝 Desc: Many Organizations adopt [DevOps Practices](https://aws.amazon.com/devops/what-i...
+  🔍 aws-samples/service-catalog-engine-for-terraform-os (⭐144)
+    ✅ AWS: EC2, Lambda, SQS
+    📝 Desc: The AWS Service Catalog Terraform Reference Engine (TRE) provides an example for...
+  🔍 aws-samples/aws-iam-access-key-auto-rotation (⭐143)
+    ✅ AWS: CloudFormation, IAM, Secrets Manager
+    📝 Desc: This set of CloudFormation templates and Python scripts will set up an auto-rota...
+  📊 Batch 57: 5/5 successful (5.0s)
+  📈 Overall: 285/285 successful, 0 failed
+  ⏱️  Estimated remaining: 113.9 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch57.csv
+
+📦 Batch 58/1511 (repos 286-290)
+  🔍 aws-samples/deep-learning-models (⭐142)
+    ✅ AWS: General AWS
+    📝 Desc: Natural language processing & computer vision models optimized for AWS...
+  🔍 aws-samples/amazon-eks-refarch-cloudformation (⭐141)
+    ✅ AWS: CDK, CloudFormation, EC2, EKS, IAM
+    📝 Desc: Reference architecture of Amazon EKS cloudformation templates and AWS CDK sample...
+  🔍 aws-samples/data-science-on-aws (⭐141)
+    ✅ AWS: Athena, Glue, S3, SageMaker
+    📝 Desc: This workshop shows AWS users how to use Amazon SageMaker and other associated s...
+  🔍 aws-samples/aws-step-functions-long-lived-transactions (⭐140)
+    ✅ AWS: Lambda, Step Functions
+    📝 Desc: Deal with the complexities of dealing with a long lived transaction across distr...
+  🔍 aws-samples/aws-lambda-domain-model-sample (⭐140)
+    ✅ AWS: API Gateway, DynamoDB, Lambda
+    📝 Desc: This is a sample project for implementing domain model objects on AWS Lambda fun...
+  📊 Batch 58: 5/5 successful (3.0s)
+  📈 Overall: 290/290 successful, 0 failed
+  ⏱️  Estimated remaining: 113.9 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch58.csv
+
+📦 Batch 59/1511 (repos 291-295)
+  🔍 aws-samples/aws-cicd-docker-containers (⭐138)
+    ✅ AWS: EC2, ECS, IAM
+    📝 Desc: This repo explains how to build a continuous delivery pipeline that automaticall...
+  🔍 aws-samples/aws-media-services-vod-automation (⭐138)
+    ✅ AWS: CloudFormation, CloudFront, DynamoDB, Kinesis, OpenSearch
+    📝 Desc: Sample code and CloudFormation scripts for automating Video on Demand workflows ...
+  🔍 aws-samples/sagemaker-ml-workflow-with-apache-airflow (⭐138)
+    ✅ AWS: CloudFormation, EC2, RDS, S3, SageMaker
+    📝 Desc: This repository shows a sample example to build, manage and orchestrate Machine ...
+  🔍 aws-samples/aws-saas-factory-serverless-workshop (⭐138)
+    ✅ AWS: API Gateway, CloudFormation, S3
+    📝 Desc: The move from a single-tenant monolithic architecture to a multi-tenant, modern ...
+  🔍 aws-samples/aws-service-catalog-terraform-reference-architecture (⭐137)
+    ✅ AWS: CloudFormation, Lambda
+    📝 Desc: Apply Terraform configurations using CloudFormation through a proxy lambda...
+  📊 Batch 59: 5/5 successful (3.5s)
+  📈 Overall: 295/295 successful, 0 failed
+  ⏱️  Estimated remaining: 114.0 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch59.csv
+
+📦 Batch 60/1511 (repos 296-300)
+  🔍 aws-samples/ask-around-me (⭐137)
+    ✅ AWS: Lambda
+    📝 Desc: The Ask Around Me example serverless web application. See the Compute Blog serie...
+  🔍 aws-samples/lambda-web-scraper-example (⭐137)
+    ✅ AWS: CDK, Lambda, S3
+    📝 Desc: An example of a web scraper running on AWS Lambda and Lambda Layers...
+  🔍 aws-samples/amazon-transcribe-comprehend-podcast (⭐136)
+    ✅ AWS: CloudFormation, CloudFront, Comprehend, IAM, Lambda
+    📝 Desc: A demo application that transcribes and indexes podcast episodes so the listener...
+  🔍 aws-samples/amazon-sagemaker-feature-store-end-to-end-workshop (⭐136)
+    ✅ AWS: Athena, Batch, Lambda, S3, SageMaker
+    📝 Desc: **Please Note**: This repository includes a github submodule (ml-lineage-helper)...
+  🔍 aws-samples/amazon-bedrock-audio-summarizer (⭐136)
+    ✅ AWS: Bedrock, EventBridge, Lambda, S3
+    📝 Desc: An automated way to transcribe and summarize media files using Amazon S3, AWS La...
+  📊 Batch 60: 5/5 successful (3.6s)
+  📈 Overall: 300/300 successful, 0 failed
+  ⏱️  Estimated remaining: 114.1 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch60.csv
+
+📦 Batch 61/1511 (repos 301-305)
+  🔍 aws-samples/aws-golden-ami-pipeline-sample (⭐135)
+    ✅ AWS: EC2
+    📝 Desc: Golden AMI pipeline setup sample...
+  🔍 aws-samples/dbt-glue (⭐135)
+    ✅ AWS: Glue, IAM
+    📝 Desc: This repository contains the dbt-glue adapter...
+  🔍 aws-samples/lambda-apigateway-twilio-tutorial (⭐134)
+    ✅ AWS: API Gateway, DynamoDB, EC2, Lambda, S3
+    📝 Desc: Getting started with AWS Lambda + Amazon API Gateway. Use Twilio MMS to upload p...
+  🔍 aws-samples/reactive-refarch-cloudformation (⭐134)
+    ✅ AWS: ALB, CDK, CloudWatch, DynamoDB, ECS
+    📝 Desc: Reactive Microservices Architectures with Amazon ECS, AWS Lambda, Amazon Kinesis...
+  🔍 aws-samples/amazon-guardduty-to-slack (⭐134)
+    ✅ AWS: CloudFormation, IAM, Lambda, S3
+    📝 Desc: Demonstrates integrating Amazon GuardDuty with your Slack Channel...
+  📊 Batch 61: 5/5 successful (4.0s)
+  📈 Overall: 305/305 successful, 0 failed
+  ⏱️  Estimated remaining: 114.4 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch61.csv
+
+📦 Batch 62/1511 (repos 306-310)
+  🔍 aws-samples/startup-kit-serverless-workload (⭐133)
+    ✅ AWS: API Gateway, DynamoDB, IAM, Lambda, S3
+    📝 Desc: An example serverless RESTful API, to be deployed via the AWS Serverless Applica...
+  🔍 aws-samples/sagemaker-studio-custom-image-samples (⭐133)
+    ✅ AWS: SageMaker
+    📝 Desc: This repository contains examples of Docker images that can be used as custom im...
+  🔍 aws-samples/flux-eks-gitops-config (⭐133)
+    ✅ AWS: EKS
+    📝 Desc: Sample configuration blueprint for configuring multiple Amazon EKS clusters (tes...
+  🔍 aws-samples/semantic-search-with-amazon-opensearch (⭐132)
+    ✅ AWS: API Gateway, CloudFormation, Lambda, S3, SageMaker
+    📝 Desc: This repository guides users through creating a semantic search using Amazon Sag...
+  🔍 aws-samples/amazon-transcribe-live-meeting-assistant (⭐132)
+    ✅ AWS: Bedrock
+    📝 Desc: _Companion AWS blog post: [Live Meeting Assistant with Amazon Transcribe, Amazon...
+  📊 Batch 62: 5/5 successful (3.9s)
+  📈 Overall: 310/310 successful, 0 failed
+  ⏱️  Estimated remaining: 114.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch62.csv
+
+📦 Batch 63/1511 (repos 311-315)
+  🔍 aws-samples/amazon-guardduty-multiaccount-scripts (⭐131)
+    ✅ AWS: IAM
+    📝 Desc: This script automates the process of running the GuardDuty multi-account workflo...
+  🔍 aws-samples/ec2-classic-resource-finder (⭐131)
+    ✅ AWS: EC2, EMR, VPC
+    📝 Desc: This script enables the identification of resources running in Amazon EC2 Classi...
+  🔍 aws-samples/aws-iam-temporary-elevated-access-broker (⭐130)
+    ✅ AWS: API Gateway, CloudFormation, CloudFront, DynamoDB, IAM
+    📝 Desc: Allow users to request temporary elevated access to your AWS environment...
+  🔍 aws-samples/amazon-sagemaker-stock-prediction-archived (⭐129)
+    ✅ AWS: S3, SageMaker
+    📝 Desc: Workshop to demonstrate how to apply NN based algorithms to stock market data an...
+  🔍 aws-samples/deploying-unreal-engine-pixel-streaming-server-on-ec2 (⭐129)
+    ✅ AWS: CloudFormation, EC2, S3
+    📝 Desc: Repo contains code and documentation that allows you to deploy Windows-based Unr...
+  📊 Batch 63: 5/5 successful (3.6s)
+  📈 Overall: 315/315 successful, 0 failed
+  ⏱️  Estimated remaining: 114.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch63.csv
+
+📦 Batch 64/1511 (repos 316-320)
+  🔍 aws-samples/lambda-java8-dynamodb (⭐128)
+    ✅ AWS: API Gateway, DynamoDB, Lambda, S3
+    📝 Desc: This code base is an example API built with the Java 8 runtime for AWS Lambda, i...
+  🔍 aws-samples/aws-appsync-calorie-tracker-workshop (⭐128)
+    ✅ AWS: CloudFormation, Cognito, DynamoDB, Lambda, Neptune
+    📝 Desc: Serverless application that demonstrate how to use AWS AppSync and Amazon Neptun...
+  🔍 aws-samples/aws-lambda-elixir-runtime (⭐128)
+    ✅ AWS: Lambda
+    📝 Desc: Example implementation of a custom runtime for running Elixir on AWS Lambda....
+  🔍 aws-samples/aws-research-workshops (⭐128)
+    ✅ AWS: ALB, Athena, Batch, CloudFormation, Glue
+    📝 Desc: This repo provides a managed SageMaker jupyter notebook with a number of noteboo...
+  🔍 aws-samples/amazon-ec2-image-builder-samples (⭐128)
+    ✅ AWS: CDK, CloudFormation, CodePipeline, EC2
+    📝 Desc: Samples for Amazon EC2 Image Builder...
+  📊 Batch 64: 5/5 successful (3.7s)
+  📈 Overall: 320/320 successful, 0 failed
+  ⏱️  Estimated remaining: 114.9 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch64.csv
+
+📦 Batch 65/1511 (repos 321-325)
+  🔍 aws-samples/happy-path (⭐128)
+    ✅ AWS: Lambda, Step Functions
+    📝 Desc: This web app shows how to build a complex backend workflows as stand-alone AWS S...
+  🔍 aws-samples/aws-serverless-fullstack-swift-apple-carplay-example (⭐128)
+    ✅ AWS: CDK, Lambda, Secrets Manager
+    📝 Desc: This application demonstrates a full-stack Apple CarPlay app that uses Swift for...
+  🔍 aws-samples/serverless-go-demo (⭐128)
+    ✅ AWS: API Gateway, CloudWatch, DynamoDB, Lambda
+    📝 Desc: Sample serverless application written in Golang...
+  🔍 aws-samples/serverless-jenkins-on-aws-fargate (⭐126)
+    ✅ AWS: DynamoDB, ECS, EFS, Fargate, IAM
+    📝 Desc: Terraform module which creates a serverless Jenkins environment based on AWS Far...
+  🔍 aws-samples/text-to-sql-bedrock-workshop (⭐126)
+    ✅ AWS: General AWS
+    📝 Desc: This repository is intended for those looking to dive deep on advanced Text-to-S...
+  📊 Batch 65: 5/5 successful (2.8s)
+  📈 Overall: 325/325 successful, 0 failed
+  ⏱️  Estimated remaining: 114.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch65.csv
+
+📦 Batch 66/1511 (repos 326-330)
+  🔍 aws-samples/public-file-browser-for-amazon-s3 (⭐126)
+    ✅ AWS: CloudFormation, CloudFront, Cognito, Lambda, S3
+    📝 Desc: Sample code to deploy a website and a "public files" S3 bucket which can be load...
+  🔍 aws-samples/aws-iam-permissions-guardrails (⭐125)
+    ✅ AWS: IAM
+    📝 Desc: AWS IAM Permissions Guardrails https://aws-samples.github.io/aws-iam-permissions...
+  🔍 aws-samples/amazon-location-samples (⭐125)
+    ✅ AWS: General AWS
+    📝 Desc: Amazon Location Service Samples...
+  🔍 aws-samples/semantic-search-aws-docs (⭐125)
+    ✅ AWS: ECS
+    📝 Desc: This sample project demonstrates how to set up AWS infrastructure to perform sem...
+  🔍 aws-samples/aws-appsync-iot-core-realtime-dashboard (⭐124)
+    ✅ AWS: CDK, Cognito, DynamoDB, IAM, Lambda
+    📝 Desc: This sample application demonstrates a React based web dashboard receiving real-...
+  📊 Batch 66: 5/5 successful (3.0s)
+  📈 Overall: 330/330 successful, 0 failed
+  ⏱️  Estimated remaining: 114.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch66.csv
+
+📦 Batch 67/1511 (repos 331-335)
+  🔍 aws-samples/aws-mainframe-modernization-carddemo (⭐124)
+    ✅ AWS: Batch
+    📝 Desc: A comprehensive COBOL mainframe credit card management application designed to s...
+  🔍 aws-samples/aws-saas-factory-postgresql-rls (⭐123)
+    ✅ AWS: CloudFormation, CloudWatch, CodeBuild, CodePipeline, EC2
+    📝 Desc: Multi-Tenant Data Isolation Using PostgreSQL Row Level Security Policies...
+  🔍 aws-samples/rds-snapshot-export-to-s3-pipeline (⭐122)
+    ✅ AWS: Athena, Aurora, CDK, Lambda, RDS
+    📝 Desc: RDS Snapshot Export to S3 Pipeline...
+  🔍 aws-samples/amazon-cloudfront-access-logs-queries (⭐121)
+    ✅ AWS: Athena, CloudFormation, CloudFront, Glue, Lambda
+    📝 Desc: Analyze your Amazon CloudFront Access Logs at Scale with Amazon Athena....
+  🔍 aws-samples/aws-step-functions-kendra-web-crawler-search-engine (⭐121)
+    ✅ AWS: Batch, CDK, CloudFormation, DynamoDB, Lambda
+    📝 Desc: This sample aims to demonstrate how to create a serverless web crawler and searc...
+  📊 Batch 67: 5/5 successful (3.0s)
+  📈 Overall: 335/335 successful, 0 failed
+  ⏱️  Estimated remaining: 114.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch67.csv
+
+📦 Batch 68/1511 (repos 336-340)
+  🔍 aws-samples/sagemaker-genai-hosting-examples (⭐121)
+    ✅ AWS: Batch, SageMaker
+    📝 Desc: This repository contains a compilation of examples of optimized deployment of po...
+  🔍 aws-samples/sample-client-for-amazon-bedrock (⭐121)
+    ✅ AWS: Bedrock, IAM
+    📝 Desc: <h1 align="center">Sample Client for Amazon Bedrock</h1> English / [简体中文](./READ...
+  🔍 aws-samples/reinvent2019-aim362-sagemaker-debugger-model-monitor (⭐120)
+    ✅ AWS: S3, SageMaker
+    📝 Desc: Build, train & debug, and deploy & monitor with Amazon SageMaker...
+  🔍 aws-samples/amazon-transcribe-live-call-analytics (⭐120)
+    ✅ AWS: Bedrock, Comprehend
+    📝 Desc: Amazon Transcribe Live Call Analytics (LCA) Sample Solution...
+  🔍 aws-samples/serverless-coffee-workshop (⭐120)
+    ✅ AWS: EventBridge, Lambda
+    📝 Desc: This is old repo for Serverlesspresso workshop. New location: https://catalog.wo...
+  📊 Batch 68: 5/5 successful (3.7s)
+  📈 Overall: 340/340 successful, 0 failed
+  ⏱️  Estimated remaining: 114.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch68.csv
+
+📦 Batch 69/1511 (repos 341-345)
+  🔍 aws-samples/amazon-ai-building-better-bots (⭐119)
+    ✅ AWS: IAM, Lambda
+    📝 Desc: Code samples related to Building Better Bots published on the AI Blog...
+  🔍 aws-samples/hyperledger-on-kubernetes (⭐119)
+    ✅ AWS: EKS
+    📝 Desc: Builds a Hyperledger Fabric network on Kubernetes...
+  🔍 aws-samples/eks-gitops-crossplane-argocd (⭐119)
+    ✅ AWS: EKS, VPC
+    📝 Desc: This Git repository contains software artifacts to deploy [Crossplane](https://c...
+  🔍 aws-samples/baseline-environment-on-aws-for-financial-services-institute (⭐119)
+    ✅ AWS: CDK
+    📝 Desc: 金融リファレンスアーキテクチャ日本版は、下記 3 つのコンテンツで構成されます。 - [Well-Architected Framework FSI Lens ...
+  🔍 aws-samples/aws-codepipeline-terraform-cicd-samples (⭐118)
+    ✅ AWS: CodeBuild, CodeCommit, CodePipeline, IAM, KMS
+    📝 Desc: Terraform is an infrastructure-as-code (IaC) tool that helps you create, update,...
+  📊 Batch 69: 5/5 successful (5.1s)
+  📈 Overall: 345/345 successful, 0 failed
+  ⏱️  Estimated remaining: 115.3 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch69.csv
+
+📦 Batch 70/1511 (repos 346-350)
+  🔍 aws-samples/serverless-httpdns (⭐118)
+    ✅ AWS: ALB, CDK, CloudFront, Lambda
+    📝 Desc: a serverless httpdns solution on aws...
+  🔍 aws-samples/sample-developer-tutorials (⭐118)
+    ✅ AWS: VPC
+    📝 Desc: A collection of AWS CLI scripts and tutorials for common AWS service use cases, ...
+  🔍 aws-samples/webauthn-with-amazon-cognito (⭐117)
+    ✅ AWS: CloudFormation, Cognito, Lambda, S3
+    📝 Desc: Demo application for FIDO-based authentication and WebAuthn with Amazon Cognito...
+  🔍 aws-samples/aws-refarch-drupal (⭐116)
+    ✅ AWS: ACM, CloudFormation, CloudFront, EC2, EFS
+    📝 Desc: This reference architecture provides best practices and a set of YAML CloudForma...
+  🔍 aws-samples/amazon-mwaa-examples (⭐116)
+    ✅ AWS: CloudFormation, EMR, IAM, Secrets Manager
+    📝 Desc: Amazon Managed Workflows for Apache Airflow (MWAA) Examples repository contains ...
+  📊 Batch 70: 5/5 successful (3.7s)
+  📈 Overall: 350/350 successful, 0 failed
+  ⏱️  Estimated remaining: 115.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch70.csv
+
+📦 Batch 71/1511 (repos 351-355)
+  🔍 aws-samples/bobs-used-bookstore-sample (⭐116)
+    ✅ AWS: CDK, IAM, S3
+    📝 Desc: A sample .NET application representing a fictional used books store....
+  🔍 aws-samples/demo_mcp_on_amazon_bedrock (⭐116)
+    ✅ AWS: General AWS
+    📝 Desc: This repo is not maintained as AWS official sample. It has been moved to a perso...
+  🔍 aws-samples/amazon-chime-sdk (⭐115)
+    ✅ AWS: General AWS
+    📝 Desc: This repository contains samples intended to demonstrate different use cases for...
+  🔍 aws-samples/saas-reference-architecture-ecs (⭐115)
+    ✅ AWS: ECS
+    📝 Desc: This repo provides an end to end SaaS reference architecture implementation usin...
+  🔍 aws-samples/aws-ai-bootcamp-labs (⭐114)
+    ✅ AWS: Comprehend, EC2, IAM, Polly, Rekognition
+    📝 Desc: This library holds a collection of Notebooks and code examples for AWS AI Bootca...
+  📊 Batch 71: 5/5 successful (4.0s)
+  📈 Overall: 355/355 successful, 0 failed
+  ⏱️  Estimated remaining: 115.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch71.csv
+
+📦 Batch 72/1511 (repos 356-360)
+  🔍 aws-samples/amazon-s3-datalake-handson (⭐114)
+    ✅ AWS: S3
+    📝 Desc: This provides the contents for AWS Data Lake Handson in both Japanese and Englis...
+  🔍 aws-samples/aws-serverless-saas-layers (⭐114)
+    ✅ AWS: Lambda
+    📝 Desc: A set of labs that illustrates the concept of multi-tenancy. AWS Lambda layers i...
+  🔍 aws-samples/amazon-chime-sdk-classroom-demo (⭐113)
+    ✅ AWS: CloudFormation, IAM, S3
+    📝 Desc: This demo shows how to use the Amazon Chime SDK to build an online classroom in ...
+  🔍 aws-samples/aws-lambda-edge-workshops (⭐112)
+    ✅ AWS: Lambda
+    📝 Desc: This repository contains instructions and blueprints for Lambda@Edge workshops...
+  🔍 aws-samples/cookiecutter-aws-sam-pipeline (⭐112)
+    ✅ AWS: CloudFormation, CodeBuild
+    📝 Desc: This project is a a cookiecutter template to create a generic CI/CD pipeline for...
+  📊 Batch 72: 5/5 successful (4.4s)
+  📈 Overall: 360/360 successful, 0 failed
+  ⏱️  Estimated remaining: 116.1 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch72.csv
+
+📦 Batch 73/1511 (repos 361-365)
+  🔍 aws-samples/aws-cross-account-cicd-pipeline (⭐112)
+    ✅ AWS: CDK, CloudFormation, CodeBuild, CodeCommit, CodeDeploy
+    📝 Desc: Example of how to use CDK to create a CodePipeline CI/CD pipeline, and how to co...
+  🔍 aws-samples/aws-healthcare-lifescience-ai-ml-sample-notebooks (⭐112)
+    ✅ AWS: SageMaker
+    📝 Desc: * **Engage in hands on workshops to learn about AI/ML services.** We will work i...
+  🔍 aws-samples/llm-apps-workshop (⭐112)
+    ✅ AWS: Lambda, SageMaker
+    📝 Desc: Use LLMs for building real-world apps...
+  🔍 aws-samples/sync-buckets-state-machine (⭐111)
+    ✅ AWS: S3, Step Functions
+    📝 Desc: A sample AWS Step Functions (SFN) state machine, designed to one-way synchronize...
+  🔍 aws-samples/istio-on-amazon-eks (⭐111)
+    ✅ AWS: EKS
+    📝 Desc: Istio BookInfo sample with Kubernetes on AWS...
+  📊 Batch 73: 5/5 successful (3.9s)
+  📈 Overall: 365/365 successful, 0 failed
+  ⏱️  Estimated remaining: 116.3 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch73.csv
+
+📦 Batch 74/1511 (repos 366-370)
+  🔍 aws-samples/aws-aurora-serverless-data-api-sam (⭐111)
+    ✅ AWS: API Gateway, Aurora, EC2, Lambda, RDS
+    📝 Desc: Using Amazon Aurora Serverless (MySQL) and the Data API to build a Serverless Ap...
+  🔍 aws-samples/amazon-sagemaker-mlops-workshop (⭐111)
+    ✅ AWS: SageMaker
+    📝 Desc: MLOps workshop with Amazon SageMaker...
+  🔍 aws-samples/spark-on-aws-lambda (⭐111)
+    ✅ AWS: CloudWatch, EMR, Glue, Kinesis, Lambda
+    📝 Desc: Spark runtime on AWS Lambda...
+  🔍 aws-samples/amazon-sagemaker-ground-truth-task-uis (⭐110)
+    ✅ AWS: SageMaker
+    📝 Desc: Example task UIs for Amazon SageMaker Ground Truth...
+  🔍 aws-samples/cost-effective-aws-deployment-of-comfyui (⭐110)
+    ✅ AWS: ALB, CDK, CloudWatch, Cognito, EBS
+    📝 Desc: Cost effective solution to deploy ComfyUI on AWS with simple deployment process ...
+  📊 Batch 74: 5/5 successful (3.0s)
+  📈 Overall: 370/370 successful, 0 failed
+  ⏱️  Estimated remaining: 116.1 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch74.csv
+
+📦 Batch 75/1511 (repos 371-375)
+  🔍 aws-samples/amazon-kinesis-learning (⭐109)
+    ✅ AWS: Kinesis
+    📝 Desc: Learning Amazon Kinesis Development...
+  🔍 aws-samples/amazon-sagemaker-keras-text-classification (⭐109)
+    ✅ AWS: IAM, S3, SageMaker
+    📝 Desc: A step-by-step guide that shows how to do text classification by run training/in...
+  🔍 aws-samples/layout-aware-document-processing-and-retrieval-augmented-generation (⭐109)
+    ✅ AWS: Bedrock, IAM, S3, SageMaker, Textract
+    📝 Desc: - [Amazon Bedrock model access](https://docs.aws.amazon.com/bedrock/latest/userg...
+  🔍 aws-samples/react-ssr-lambda (⭐108)
+    ✅ AWS: API Gateway, CDK, Lambda, S3
+    📝 Desc: Demo of server side rendering for React application on AWS Lambda...
+  🔍 aws-samples/prisma-lambda-cdk (⭐108)
+    ✅ AWS: Aurora, CDK, Lambda, RDS, VPC
+    📝 Desc: Build and deploy a Lambda function with Prisma ORM by AWS Cloud Development Kit....
+  📊 Batch 75: 5/5 successful (4.0s)
+  📈 Overall: 375/375 successful, 0 failed
+  ⏱️  Estimated remaining: 116.3 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch75.csv
+
+📦 Batch 76/1511 (repos 376-380)
+  🔍 aws-samples/Meta-Llama-on-AWS (⭐108)
+    ✅ AWS: Bedrock, SageMaker
+    📝 Desc: Example Jupyter notebooks that demonstrate how to build, train, and deploy appli...
+  🔍 aws-samples/artifacts-and-tools-for-bedrock (⭐108)
+    ✅ AWS: Bedrock
+    📝 Desc: Try Artifacts and Code Interpreter Tool with Amazon Bedrock....
+  🔍 aws-samples/chalice-workshop (⭐107)
+    ✅ AWS: General AWS
+    📝 Desc: Contains tutorials, slides, and code for the AWS Chalice workshop....
+  🔍 aws-samples/sample-bedrock-deep-researcher (⭐107)
+    ✅ AWS: Bedrock
+    📝 Desc: Researcher Agent to write blog posts/ articles using Amazon Bedrock and websearc...
+  🔍 aws-samples/aws-lambda-lifecycle-hooks-function (⭐106)
+    ✅ AWS: CloudWatch, EC2, IAM, Lambda, S3
+    📝 Desc: Using Auto Scaling lifecycle hooks, Lambda, and EC2 Run Command...
+  📊 Batch 76: 5/5 successful (3.8s)
+  📈 Overall: 380/380 successful, 0 failed
+  ⏱️  Estimated remaining: 116.4 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch76.csv
+
+📦 Batch 77/1511 (repos 381-385)
+  🔍 aws-samples/authorization-lambda-at-edge (⭐106)
+    ✅ AWS: Lambda
+    📝 Desc: Code demonstrates authorization with Lambda@Edge and JSON Web Tokens (JWTs)...
+  🔍 aws-samples/amazon-sagemaker-examples-jp (⭐106)
+    ✅ AWS: SageMaker
+    📝 Desc: Japanese translation of Amazon SageMaker Examples and other original sample code...
+  🔍 aws-samples/cdk-assume-role-credential-plugin (⭐106)
+    ✅ AWS: CDK, IAM
+    📝 Desc: Now that CDK V2 is [GA](https://aws.amazon.com/about-aws/whats-new/2021/12/aws-c...
+  🔍 aws-samples/amazon-sagemaker-safe-deployment-pipeline (⭐106)
+    ✅ AWS: API Gateway, CloudFormation, CodeBuild, CodeDeploy, CodePipeline
+    📝 Desc: Safe blue/green deployment of Amazon SageMaker endpoints using AWS CodePipeline,...
+  🔍 aws-samples/amazon-eventbridge-resource-policy-samples (⭐106)
+    ✅ AWS: EventBridge, Lambda
+    📝 Desc: Learn more about Amazon EventBridge resource policies and multi-account event bu...
+  📊 Batch 77: 5/5 successful (4.1s)
+  📈 Overall: 385/385 successful, 0 failed
+  ⏱️  Estimated remaining: 116.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch77.csv
+
+📦 Batch 78/1511 (repos 386-390)
+  🔍 aws-samples/aws-iot-twinmaker-samples (⭐106)
+    ✅ AWS: Bedrock, CloudFormation, IAM, Kinesis, Lambda
+    📝 Desc: For a sample Digital Twin application highlighting an AI-assistant integration, ...
+  🔍 aws-samples/aws-three-tier-web-architecture-workshop (⭐106)
+    ✅ AWS: Aurora, EC2, ELB, RDS, S3
+    📝 Desc: This workshop is a hands-on walk through of a three-tier web architecture in AWS...
+  🔍 aws-samples/aws-bedrock-with-rag-and-react (⭐106)
+    ✅ AWS: Bedrock, CDK, S3
+    📝 Desc: Prototyping Generative AI Use Cases with Amazon Bedrock and Langchain...
+  🔍 aws-samples/eb-locustio-sample (⭐105)
+    ✅ AWS: CodeDeploy, EC2, IAM, VPC
+    📝 Desc: AWS Elastic Beanstalk sample code to run the load testing tool, locust....
+  🔍 aws-samples/amazon-chime-react-native-demo (⭐105)
+    ✅ AWS: S3
+    📝 Desc: A React Native demo application for Android and iOS using the Amazon Chime SDK....
+  📊 Batch 78: 5/5 successful (4.1s)
+  📈 Overall: 390/390 successful, 0 failed
+  ⏱️  Estimated remaining: 116.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch78.csv
+
+📦 Batch 79/1511 (repos 391-395)
+  🔍 aws-samples/aws-cognito-java-desktop-app (⭐104)
+    ✅ AWS: Cognito
+    📝 Desc: Sample Java Desktop App with Cognito User Pools...
+  🔍 aws-samples/amazon-eks-machine-learning-with-terraform-and-kubeflow (⭐104)
+    ✅ AWS: EKS
+    📝 Desc: MLOps on Amazon EKS...
+  🔍 aws-samples/liveness-detection (⭐104)
+    ✅ AWS: CloudFront, CloudWatch, DynamoDB, Lambda, Rekognition
+    📝 Desc: Backend and a JavaScript frontend of a liveness detection application....
+  🔍 aws-samples/amazon-cloudwatch-auto-alarms (⭐104)
+    ✅ AWS: CloudWatch, EC2, Lambda, RDS, SNS
+    📝 Desc: Automatically create and configure Amazon CloudWatch alarms for EC2 instances, R...
+  🔍 aws-samples/ecs-cid-sample (⭐103)
+    ✅ AWS: CloudFormation, EC2, ECS, Lambda, SNS
+    📝 Desc: In this code provided with the blog, we will demonstrate how to use the draining...
+  📊 Batch 79: 5/5 successful (2.9s)
+  📈 Overall: 395/395 successful, 0 failed
+  ⏱️  Estimated remaining: 116.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch79.csv
+
+📦 Batch 80/1511 (repos 396-400)
+  🔍 aws-samples/aws-code-snippets (⭐103)
+    ✅ AWS: Athena, CloudFormation, CodeBuild, CodePipeline, DynamoDB
+    📝 Desc: A collection of useful code snippets for interacting with Amazon Web Services...
+  🔍 aws-samples/amazon-fsx-workshop (⭐103)
+    ✅ AWS: FSx
+    📝 Desc: A workshop for Amazon FSx - designed to help you better understand how to setup,...
+  🔍 aws-samples/communication-developer-services-reference-architectures (⭐103)
+    ✅ AWS: Athena, Bedrock, CloudFormation, S3
+    📝 Desc: AWS Amazon Pinpoint and Amazon Simple Email Service (SES) Digital User Engagemen...
+  🔍 aws-samples/sam-python-crud-sample (⭐103)
+    ✅ AWS: API Gateway, DynamoDB, Lambda
+    📝 Desc: This project is an example about lambda, SAM, dynamodb. This repository contains...
+  🔍 aws-samples/amazon-transcribe-post-call-analytics (⭐103)
+    ✅ AWS: Batch, S3
+    📝 Desc: *Companion AWS blog post: [Post call analytics for your contact center with Amaz...
+  📊 Batch 80: 5/5 successful (3.6s)
+  📈 Overall: 400/400 successful, 0 failed
+  ⏱️  Estimated remaining: 116.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch80.csv
+
+📦 Batch 81/1511 (repos 401-405)
+  🔍 aws-samples/jp-rag-sample (⭐103)
+    ✅ AWS: API Gateway, Bedrock, CDK, CloudFront, Cognito
+    📝 Desc: このソリューションは AWS 上で検索用途の Retrieval Augmented Generation (RAG) を構築するサンプルコードです。...
+  🔍 aws-samples/aws-codedeploy-sample-tomcat (⭐102)
+    ✅ AWS: CodeDeploy
+    📝 Desc: A sample Tomcat application integrated with CodeDeploy....
+  🔍 aws-samples/aws-network-hub-for-terraform (⭐102)
+    ✅ AWS: IAM, Route53, VPC
+    📝 Desc: This repository demonstrates a scalable, segregated, secured AWS network hub for...
+  🔍 aws-samples/aws-lambda-nextjs (⭐102)
+    ✅ AWS: API Gateway, CDK, CloudFront, Lambda, S3
+    📝 Desc: Sample application running Next.js application on Serverless services on AWS...
+  🔍 aws-samples/aws-control-tower-controls-terraform (⭐102)
+    ✅ AWS: General AWS
+    📝 Desc: This repository describes how to use AWS Control Tower controls, HashiCorp Terra...
+  📊 Batch 81: 5/5 successful (2.9s)
+  📈 Overall: 405/405 successful, 0 failed
+  ⏱️  Estimated remaining: 116.5 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch81.csv
+
+📦 Batch 82/1511 (repos 406-410)
+  🔍 aws-samples/amazon-cognito-developer-authentication-sample (⭐101)
+    ✅ AWS: CloudFormation, Cognito
+    📝 Desc: This sample application demonstrates the developer-authenticated functionality o...
+  🔍 aws-samples/aws-mobile-appsync-events-starter-ios (⭐101)
+    ✅ AWS: DynamoDB
+    📝 Desc: GraphQL starter application with Realtime and Offline functionality using AWS Ap...
+  🔍 aws-samples/amazon-kinesis-video-streams-media-viewer (⭐101)
+    ✅ AWS: Kinesis, S3
+    📝 Desc: View HLS and MPEG-DASH output from Amazon Kinesis Video Streams...
+  🔍 aws-samples/aws-elastic-beanstalk-express-js-sample (⭐101)
+    ✅ AWS: General AWS
+    📝 Desc: Sample web application for the AWS DevOps Engineer Learning Path....
+  🔍 aws-samples/terraform-aws-organization-policies (⭐101)
+    ✅ AWS: General AWS
+    📝 Desc: Deploy SCPs, RCPs, and other AWS organization policies with Terraform...
+  📊 Batch 82: 5/5 successful (3.3s)
+  📈 Overall: 410/410 successful, 0 failed
+  ⏱️  Estimated remaining: 116.4 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch82.csv
+
+📦 Batch 83/1511 (repos 411-415)
+  🔍 aws-samples/networking-costs-calculator (⭐101)
+    ✅ AWS: CDK, CloudFront, DynamoDB, IAM, S3
+    📝 Desc: Sample of a networking costs calculator, helping to estimate the networking cost...
+  🔍 aws-samples/aws-lambda-docker-serverless-inference (⭐100)
+    ✅ AWS: Lambda, SageMaker
+    📝 Desc: Serve scikit-learn, XGBoost, TensorFlow, and PyTorch models with AWS Lambda cont...
+  🔍 aws-samples/eks-kubeflow-workshop (⭐99)
+    ✅ AWS: ACM, Cognito, EFS, EKS, FSx
+    📝 Desc: Kubeflow workshop on EKS. Mainly focus on AWS integration examples. Please go ch...
+  🔍 aws-samples/amazon-textract-transformer-pipeline (⭐99)
+    ✅ AWS: Lambda, SageMaker, Step Functions, Textract
+    📝 Desc: Post-process Amazon Textract results with Hugging Face transformer models for do...
+  🔍 aws-samples/intelligent-document-processing-with-amazon-bedrock (⭐99)
+    ✅ AWS: Bedrock, CDK, CloudFormation, ECS, IAM
+    📝 Desc: 🚀 Extract information from your documents with Generative AI...
+  📊 Batch 83: 5/5 successful (2.7s)
+  📈 Overall: 415/415 successful, 0 failed
+  ⏱️  Estimated remaining: 116.2 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch83.csv
+
+📦 Batch 84/1511 (repos 416-420)
+  🔍 aws-samples/opsworks-example-cookbooks (⭐98)
+    ✅ AWS: General AWS
+    📝 Desc: AWS OpsWorks cookbooks used with the sample applications...
+  🔍 aws-samples/amazon-a2i-sample-task-uis (⭐98)
+    ✅ AWS: SageMaker
+    📝 Desc: Over 60 example task UIs for Amazon Augmented AI (A2I)...
+  🔍 aws-samples/aws-gamelift-and-serverless-backend-sample (⭐98)
+    ✅ AWS: Lambda
+    📝 Desc: DEPRECATED: Please refer to the website link for the latest version under AWS Ga...
+  🔍 aws-samples/amazon-chime-sdk-recording-demo (⭐98)
+    ✅ AWS: API Gateway, CloudFormation, EC2, ECS, IAM
+    📝 Desc: This repository contains resources for building a demo application that records ...
+  🔍 aws-samples/aws-cdk-pipelines-datalake-infrastructure (⭐98)
+    ✅ AWS: CDK, CodePipeline, S3
+    📝 Desc: This solution helps you deploy Data Lake Infrastructure on AWS using CDK Pipelin...
+  📊 Batch 84: 5/5 successful (3.8s)
+  📈 Overall: 420/420 successful, 0 failed
+  ⏱️  Estimated remaining: 116.3 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch84.csv
+
+📦 Batch 85/1511 (repos 421-425)
+  🔍 aws-samples/aws-lambda-sample-applications (⭐97)
+    ✅ AWS: Lambda
+    📝 Desc: Sample code used to create serverless applications with AWS SAM in the Lambda co...
+  🔍 aws-samples/aws-security-services-with-terraform (⭐97)
+    ✅ AWS: CodeBuild, CodePipeline, DynamoDB, IAM, S3
+    📝 Desc: Code examples for the AWS Security Blog post: How to use CI/CD to deploy and con...
+  🔍 aws-samples/aws-incident-response-playbooks-workshop (⭐97)
+    ✅ AWS: Athena, CDK, CloudFormation, CloudTrail, EC2
+    📝 Desc: This project is part of the workshop [Building Incident Response Playbooks for A...
+  🔍 aws-samples/aws-lex-convo-bot-example (⭐96)
+    ✅ AWS: IAM, Lambda, S3
+    📝 Desc: Amazon Lex Conversation Bot Sample....
+  🔍 aws-samples/aws-step-functions-ebs-snapshot-mgmt (⭐96)
+    ✅ AWS: CloudFormation, CloudWatch, EBS, Lambda, S3
+    📝 Desc: Example architecture for integrating AWS Step Functions and Amazon CloudWatch Ev...
+  📊 Batch 85: 5/5 successful (4.6s)
+  📈 Overall: 425/425 successful, 0 failed
+  ⏱️  Estimated remaining: 116.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch85.csv
+
+📦 Batch 86/1511 (repos 426-430)
+  🔍 aws-samples/serverless-hotdog-detector (⭐96)
+    ✅ AWS: API Gateway, CloudFormation, Lambda, Rekognition
+    📝 Desc: This example shows you how to build a serverless hotdog detecting application on...
+  🔍 aws-samples/amazon-lex-customerservice-workshop (⭐96)
+    ✅ AWS: CloudFormation, DynamoDB, IAM, Lambda
+    📝 Desc: Code and walkthrough labs to create a customer service chatbot using Amazon Lex ...
+  🔍 aws-samples/aws-greengrass-samples (⭐96)
+    ✅ AWS: DynamoDB, Lambda
+    📝 Desc: Samples for AWS Greengrass...
+  🔍 aws-samples/simple-nft-marketplace (⭐96)
+    ✅ AWS: CDK
+    📝 Desc: This project provides sample codes to build a simple NFT marketplace with Amazon...
+  🔍 aws-samples/asynchronous-messaging-workshop (⭐95)
+    ✅ AWS: ECS, IAM, Lambda, SNS, SQS
+    📝 Desc: The Asynchronous Messaging Workshop is a collection of individual labs covering ...
+  📊 Batch 86: 5/5 successful (3.2s)
+  📈 Overall: 430/430 successful, 0 failed
+  ⏱️  Estimated remaining: 116.5 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch86.csv
+
+📦 Batch 87/1511 (repos 431-435)
+  🔍 aws-samples/amazon-rekognition-custom-labels-demo (⭐95)
+    ✅ AWS: CloudFormation, CloudFront, Cognito, IAM, Rekognition
+    📝 Desc: A demo to test Custom Labels with models trained by Amazon Rekognition...
+  🔍 aws-samples/csv-to-dynamodb (⭐95)
+    ✅ AWS: CloudFormation, DynamoDB
+    📝 Desc: This repository is used in conjunction with the following blog post: [Implementi...
+  🔍 aws-samples/bedrock-claude-chatbot (⭐95)
+    ✅ AWS: Athena, Bedrock, DynamoDB, Lambda, S3
+    📝 Desc: Personal Chatbot powered by Amazon Bedrock LLMs with a data analytics feature th...
+  🔍 aws-samples/eks-blueprints-workloads (⭐94)
+    ✅ AWS: CDK, EKS
+    📝 Desc: Welcome to the EKS Blueprints Workloads repository. This repository serves as a ...
+  🔍 aws-samples/aws-blockchain-node-runners (⭐94)
+    ✅ AWS: CDK
+    📝 Desc: Run blockchain nodes on cloud...
+  📊 Batch 87: 5/5 successful (3.7s)
+  📈 Overall: 435/435 successful, 0 failed
+  ⏱️  Estimated remaining: 116.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch87.csv
+
+📦 Batch 88/1511 (repos 436-440)
+  🔍 aws-samples/amazon-ecs-fargate-aspnetcore (⭐93)
+    ✅ AWS: ECS, Fargate
+    📝 Desc: A prescriptive guidance on how to host an ASP.NET core application in AWS Fargat...
+  🔍 aws-samples/aws-xray-fargate (⭐93)
+    ✅ AWS: EC2, ECS, Fargate, X-Ray
+    📝 Desc: Code examples showing how to run AWS X-Ray as a sidecar container on Fargate for...
+  🔍 aws-samples/aws-transcribe-captioning-tools (⭐93)
+    ✅ AWS: Polly
+    📝 Desc: Convert AWS Transcribe output into multiple caption formats....
+  🔍 aws-samples/aws-iot-esp32-arduino-examples (⭐93)
+    ✅ AWS: Lambda
+    📝 Desc: This project contains several Arduino examples for [AWS IoT](https://aws.amazon....
+  🔍 aws-samples/devsecops-cicd (⭐93)
+    ✅ AWS: CloudFormation, CodeBuild, CodeCommit, CodeDeploy, CodePipeline
+    📝 Desc: DevSecOps pipeline using AWS cloud native services and open source security vuln...
+  📊 Batch 88: 5/5 successful (3.9s)
+  📈 Overall: 440/440 successful, 0 failed
+  ⏱️  Estimated remaining: 116.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch88.csv
+
+📦 Batch 89/1511 (repos 441-445)
+  🔍 aws-samples/sample-connector-for-bedrock (⭐93)
+    ✅ AWS: Bedrock, Lambda, SageMaker
+    📝 Desc: Seamlessly invoke Amazon Bedrock or your custom models, enabling a smooth experi...
+  🔍 aws-samples/aws-device-farm-appium-tests-for-sample-app (⭐92)
+    ✅ AWS: General AWS
+    📝 Desc: AWS Device Farm Appium tests...
+  🔍 aws-samples/graceful-shutdown-with-aws-lambda (⭐92)
+    ✅ AWS: Lambda
+    📝 Desc: AWS Lambda allows developers to run their code without managing servers, automat...
+  🔍 aws-samples/cloud-trail-lake-query-samples (⭐92)
+    ✅ AWS: CloudTrail
+    📝 Desc: This repository contains a collection of sample queries for AWS CloudTrail Lake....
+  🔍 aws-samples/eks-saas-gitops (⭐92)
+    ✅ AWS: EKS
+    📝 Desc: Source repo of Building SaaS applications on Amazon EKS using GitOps workshop...
+  📊 Batch 89: 5/5 successful (3.4s)
+  📈 Overall: 445/445 successful, 0 failed
+  ⏱️  Estimated remaining: 116.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch89.csv
+
+📦 Batch 90/1511 (repos 446-450)
+  🔍 aws-samples/aws-builders-fair-projects (⭐91)
+    ✅ AWS: EC2, IAM
+    📝 Desc: The aws-builders-fair-projects repo contains sample code and infrastructure temp...
+  🔍 aws-samples/amazon-eks-cdk-blue-green-cicd (⭐91)
+    ✅ AWS: ALB, CDK, CodeBuild, CodeDeploy, CodePipeline
+    📝 Desc: Repo to build CI/CD pipeline for Blue/Green deployments on EKS using CDK...
+  🔍 aws-samples/sagemaker-stablediffusion-quick-kit (⭐91)
+    ✅ AWS: CDK, EKS, Lambda, SageMaker
+    📝 Desc: SageMaker Stable Diffusion Quick Kit is an asset to help our customers launch st...
+  🔍 aws-samples/aws-agentic-document-assistant (⭐91)
+    ✅ AWS: Batch, Bedrock, CDK, Cognito, SageMaker
+    📝 Desc: An agent based LLM assistant that extends RAG with batch entity extraction and S...
+  🔍 aws-samples/data-protection (⭐90)
+    ✅ AWS: CloudWatch, KMS
+    📝 Desc: Workshop and sample code that builders can use for experiential learning of AWS ...
+  📊 Batch 90: 5/5 successful (4.0s)
+  📈 Overall: 450/450 successful, 0 failed
+  ⏱️  Estimated remaining: 116.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch90.csv
+
+📦 Batch 91/1511 (repos 451-455)
+  🔍 aws-samples/react-cors-spa (⭐90)
+    ✅ AWS: API Gateway, CloudFormation, CloudFront, S3
+    📝 Desc: React CORS-friendly Single Page Application hosted on Amazon S3 and exposed thro...
+  🔍 aws-samples/ecs-refarch-task-rebalancing (⭐89)
+    ✅ AWS: ALB, CloudFormation, EC2, ECS, Lambda
+    📝 Desc: A serverless approach using AWS Lambda and Amazon ECS Event Stream to proactivel...
+  🔍 aws-samples/eks-spark-benchmark (⭐89)
+    ✅ AWS: EKS, S3
+    📝 Desc: Performance optimization for Spark running on Kubernetes...
+  🔍 aws-samples/cdk-keycloak (⭐89)
+    ✅ AWS: Aurora, CDK, RDS
+    📝 Desc: CDK construct library that allows you to create KeyCloak on AWS in TypeScript or...
+  🔍 aws-samples/amazon-sagemaker-secure-mlops (⭐89)
+    ✅ AWS: CloudFormation, IAM, SageMaker, VPC
+    📝 Desc: The goal of the solution is to demonstrate a deployment of Amazon SageMaker Stud...
+  📊 Batch 91: 5/5 successful (3.6s)
+  📈 Overall: 455/455 successful, 0 failed
+  ⏱️  Estimated remaining: 116.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch91.csv
+
+📦 Batch 92/1511 (repos 456-460)
+  🔍 aws-samples/aws-data-mesh-utils (⭐89)
+    ✅ AWS: IAM
+    📝 Desc: The AWS Data Mesh Helper library provides automation around the most common task...
+  🔍 aws-samples/rag-with-amazon-bedrock-and-pgvector (⭐89)
+    ✅ AWS: Bedrock, CDK, Cognito, ECS, Lambda
+    📝 Desc: Opinionated sample on how to build/deploy a RAG web app on AWS powered by Amazon...
+  🔍 aws-samples/amplify-vite-react-template (⭐89)
+    ✅ AWS: Cognito, DynamoDB
+    📝 Desc: This is a React starter for building a fullstack app with AWS Amplify....
+  🔍 aws-samples/aws-php-sample (⭐88)
+    ✅ AWS: IAM, S3
+    📝 Desc: Sample project to demonstrate usage of the AWS SDK for PHP...
+  🔍 aws-samples/aws-aurora-cloudformation-samples (⭐88)
+    ✅ AWS: Aurora, CloudFormation, Lambda, S3, Secrets Manager
+    📝 Desc: Quick start reference deployment of an Amazon Aurora DB Cluster with AWS recomme...
+  📊 Batch 92: 5/5 successful (3.4s)
+  📈 Overall: 460/460 successful, 0 failed
+  ⏱️  Estimated remaining: 116.7 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch92.csv
+
+📦 Batch 93/1511 (repos 461-465)
+  🔍 aws-samples/amazon-deequ-glue (⭐88)
+    ✅ AWS: CloudFormation, CloudWatch, CodeCommit, DynamoDB, Glue
+    📝 Desc: Automated data quality suggestions and analysis with Deequ on AWS Glue...
+  🔍 aws-samples/sample-agentic-ai-demos (⭐88)
+    ✅ AWS: Bedrock, ECS, Fargate
+    📝 Desc: Collection of examples of how to use Model Context Protocol with AWS....
+  🔍 aws-samples/aws-codepipeline-stepfunctions (⭐87)
+    ✅ AWS: CloudFormation, CodeCommit, CodePipeline, IAM, Lambda
+    📝 Desc: This project shows how to integrate AWS CodePipeline and AWS Step Functions stat...
+  🔍 aws-samples/cloud-experiments (⭐87)
+    ✅ AWS: Glue, IAM, S3
+    📝 Desc: Open innovation with 60 minute cloud experiments on AWS...
+  🔍 aws-samples/unishop-monolith-to-microservices (⭐87)
+    ✅ AWS: General AWS
+    📝 Desc: Unishop MonoToMicro Workshop...
+  📊 Batch 93: 5/5 successful (3.1s)
+  📈 Overall: 465/465 successful, 0 failed
+  ⏱️  Estimated remaining: 116.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch93.csv
+
+📦 Batch 94/1511 (repos 466-470)
+  🔍 aws-samples/aws-saas-factory-s3-multitenancy (⭐87)
+    ✅ AWS: DynamoDB, S3
+    📝 Desc: SaaS hands-on to describe partitioning approaches to store multi-tenant data on ...
+  🔍 aws-samples/aws-sdk-js-notes-app (⭐87)
+    ✅ AWS: CDK, CloudFormation, DynamoDB, Lambda, S3
+    📝 Desc: A simple note taking application using modular AWS SDK for JavaScript (v3)...
+  🔍 aws-samples/aws-serverless-nextcloud (⭐87)
+    ✅ AWS: ACM, Aurora, CloudFormation, ECS, Fargate
+    📝 Desc: moved - https://github.com/f7o/aws-serverless-nextcloud...
+  🔍 aws-samples/sagemaker-studio-lifecycle-config-examples (⭐87)
+    ✅ AWS: SageMaker
+    📝 Desc: A collection of sample scripts customizing SageMaker Studio Classic Applications...
+  🔍 aws-samples/mlops-sagemaker-github-actions (⭐87)
+    ✅ AWS: IAM, SageMaker, Secrets Manager
+    📝 Desc: MLOps example using Amazon SageMaker Pipeline and GitHub Actions...
+  📊 Batch 94: 5/5 successful (3.0s)
+  📈 Overall: 470/470 successful, 0 failed
+  ⏱️  Estimated remaining: 116.5 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch94.csv
+
+📦 Batch 95/1511 (repos 471-475)
+  🔍 aws-samples/aws-cfn-custom-resource-examples (⭐86)
+    ✅ AWS: CloudFormation
+    📝 Desc: Custom resource examples for CloudFormation...
+  🔍 aws-samples/aws-cloudwatch-building-dashboard-outside-aws-console (⭐86)
+    ✅ AWS: API Gateway, CloudWatch, EC2, Lambda, S3
+    📝 Desc: Code samples related to "Building a CloudWatch Dashboard Outside of the AWS Cons...
+  🔍 aws-samples/amazon-kinesis-analytics-taxi-consumer (⭐86)
+    ✅ AWS: CloudFormation, EC2, Kinesis, OpenSearch, S3
+    📝 Desc: Sample Apache Flink application that can be deployed to Kinesis Analytics for Ja...
+  🔍 aws-samples/medical-transcription-analysis (⭐86)
+    ✅ AWS: CDK, CloudFormation, Comprehend, EC2, S3
+    📝 Desc: Medical Transcription Analysis (MTA) demonstrates how the integration of Amazon ...
+  🔍 aws-samples/amazon-rekognition-virtual-proctor (⭐86)
+    ✅ AWS: CloudFormation, CloudFront, Cognito, IAM, Rekognition
+    📝 Desc: A solution to assist with virtual proctoring of exams using Amazon Rekognition...
+  📊 Batch 95: 5/5 successful (3.2s)
+  📈 Overall: 475/475 successful, 0 failed
+  ⏱️  Estimated remaining: 116.4 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch95.csv
+
+📦 Batch 96/1511 (repos 476-480)
+  🔍 aws-samples/aws-iot-core-lorawan (⭐86)
+    ✅ AWS: Batch, Timestream
+    📝 Desc: Quickly get started with AWS IoT Core for LoRaWAN with sample solutions (binary ...
+  🔍 aws-samples/aws-dev-hour-backend (⭐86)
+    ✅ AWS: API Gateway, CDK, CloudFormation, CodeBuild, CodePipeline
+    📝 Desc: Do you have the skills it takes to build modern applications that are distribute...
+  🔍 aws-samples/aws-ambit-scenario-designer-ue4 (⭐86)
+    ✅ AWS: CodeBuild
+    📝 Desc: AWS Ambit Scenario Designer for Unreal Engine 4 (Ambit) is a suite of tools to s...
+  🔍 aws-samples/observability-with-amazon-opensearch (⭐86)
+    ✅ AWS: CloudFormation, EKS
+    📝 Desc: This repository contains a microservice-based Sample App demonstrating observabi...
+  🔍 aws-samples/example-permissions-boundary (⭐86)
+    ✅ AWS: IAM, Lambda, S3
+    📝 Desc: This repository contains a sample IAM permissions boundary as a starting point f...
+  📊 Batch 96: 5/5 successful (2.5s)
+  📈 Overall: 480/480 successful, 0 failed
+  ⏱️  Estimated remaining: 116.1 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch96.csv
+
+📦 Batch 97/1511 (repos 481-485)
+  🔍 aws-samples/amazon-s3-multipart-upload-transfer-acceleration (⭐86)
+    ✅ AWS: API Gateway, CDK, Lambda, S3
+    📝 Desc: Uploading large objects to S3 using multipart upload, and transfer acceleration...
+  🔍 aws-samples/amazon-q-slack-gateway (⭐86)
+    ✅ AWS: CloudFormation, IAM
+    📝 Desc: *Q Business Slack integration* has been launched during re:invent 2024, please r...
+  🔍 aws-samples/amazon-ivs-player-web-sample (⭐85)
+    ✅ AWS: General AWS
+    📝 Desc: This project contains code samples demonstrating how to build, package, and inte...
+  🔍 aws-samples/amazon-ec2-mac-getting-started (⭐85)
+    ✅ AWS: EC2, SNS
+    📝 Desc: Use Amazon EC2 Mac instances for building, testing, signing, and publishing appl...
+  🔍 aws-samples/aws-healthomics-tutorials (⭐85)
+    ✅ AWS: Athena, EMR, IAM, Redshift, S3
+    📝 Desc: Example code that demonstrates how to store, process, and query genomic and biol...
+  📊 Batch 97: 5/5 successful (3.3s)
+  📈 Overall: 485/485 successful, 0 failed
+  ⏱️  Estimated remaining: 116.0 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch97.csv
+
+📦 Batch 98/1511 (repos 486-490)
+  🔍 aws-samples/mistral-on-aws (⭐85)
+    ✅ AWS: Bedrock, SageMaker
+    📝 Desc: Mistral on AWS examples for Bedrock & SageMaker...
+  🔍 aws-samples/amazon-elasticache-samples (⭐84)
+    ✅ AWS: Bedrock, Lambda, RDS, S3
+    📝 Desc: Samples and documentation for using the Amazon ElastiCache Redis and Memcached...
+  🔍 aws-samples/aws-ecs-cicd-terraform (⭐84)
+    ✅ AWS: CDK, CodeBuild, CodeCommit, CodeDeploy, CodePipeline
+    📝 Desc: Build and Deploy Spring Petclinic Application to Amazon ECS (Fargate) using Terr...
+  🔍 aws-samples/streamlit-application-deployment-on-aws (⭐84)
+    ✅ AWS: ALB, Athena, Cognito, EC2, ECS
+    📝 Desc: Streamlit EDA Dashboard Powered by AWS Cloud...
+  🔍 aws-samples/aws-hpc-recipes (⭐84)
+    ✅ AWS: Batch, CloudFormation, EC2, Lambda, Secrets Manager
+    📝 Desc: Contains example recipes that demonstrate how to build HPC systems using AWS ser...
+  📊 Batch 98: 5/5 successful (2.5s)
+  📈 Overall: 490/490 successful, 0 failed
+  ⏱️  Estimated remaining: 115.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch98.csv
+
+📦 Batch 99/1511 (repos 491-495)
+  🔍 aws-samples/eb-tomcat-snakes (⭐83)
+    ✅ AWS: RDS
+    📝 Desc: Tomcat application that shows the use of Amazon RDS in a Java EE web application...
+  🔍 aws-samples/aws-iot-workshop (⭐83)
+    ✅ AWS: Lambda
+    📝 Desc: An IoT Workshop designed to get you up and running on AWS. It utilises several A...
+  🔍 aws-samples/amazon-gamelift-unity (⭐83)
+    ✅ AWS: General AWS
+    📝 Desc: A multi-player game sample (server and client), developed with the Unity game en...
+  🔍 aws-samples/aws-appsync-iot-core-realtime-example (⭐83)
+    ✅ AWS: DynamoDB, IAM, Lambda
+    📝 Desc: This sample application demonstrates an iPhone receiving real-time updates from ...
+  🔍 aws-samples/aws-hpc-tutorials (⭐83)
+    ✅ AWS: General AWS
+    📝 Desc: Collection of workshops to demonstrate best practices in using Amazon Web Servic...
+  📊 Batch 99: 5/5 successful (3.6s)
+  📈 Overall: 495/495 successful, 0 failed
+  ⏱️  Estimated remaining: 115.8 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch99.csv
+
+📦 Batch 100/1511 (repos 496-500)
+  🔍 aws-samples/Serverless-Retrieval-Augmented-Generation-RAG-on-AWS (⭐83)
+    ✅ AWS: Bedrock, CDK, Lambda, S3
+    📝 Desc: A full-stack serverless RAG workflow. This is thought for running PoCs, prototyp...
+  🔍 aws-samples/aws-iot-securetunneling-localproxy (⭐82)
+    ✅ AWS: General AWS
+    📝 Desc: AWS Iot Secure Tunneling local proxy reference C++ implementation...
+  🔍 aws-samples/aws-fraud-detector-samples (⭐82)
+    ✅ AWS: Batch, CloudFormation, S3, SageMaker
+    📝 Desc: Sample code and datasets for Amazon Fraud Detector...
+  🔍 aws-samples/aws-panorama-samples (⭐82)
+    ✅ AWS: S3
+    📝 Desc: This repository has samples that demonstrate various aspects of AWS Panorama dev...
+  🔍 aws-samples/multi-tenant-chatbot-using-rag-with-amazon-bedrock (⭐82)
+    ✅ AWS: Bedrock, EC2, EKS, IAM
+    📝 Desc: Note that the instructions below are intended to give you step-by-step, how-to i...
+  📊 Batch 100: 5/5 successful (2.9s)
+  📈 Overall: 500/500 successful, 0 failed
+  ⏱️  Estimated remaining: 115.6 minutes
+💾 Saved results: s3://aws-github-repo-classification-aws-samples/results/enhanced_v3_progress_batch100.csv
+
+📦 Batch 101/1511 (repos 501-505)
+  🔍 aws-samples/distributed-load-testing-using-aws-fargate (⭐81)
+    ✅ AWS: CloudFormation, CloudWatch, CodeBuild, CodeCommit, CodePipeline
+    📝 Desc: Solution to setup AWS Fargate to run multi-region distributed performance testin...
+  🔍 aws-samples/cdk-pipelines-demo (⭐81)
+🚫 Rate limit exceeded!
+⏰ Reset time: 2025-10-26 11:36:41
+⏳ Waiting 530 seconds (8.0 minutes)...
+💾 Saving checkpoint before rate limit wait...
+Traceback (most recent call last):
+  File "/persistent/home/ubuntu/workspace/24oct/awsgithubresearch/enhanced_classifier_v4.py", line 380, in <module>
+    main()
+  File "/persistent/home/ubuntu/workspace/24oct/awsgithubresearch/enhanced_classifier_v4.py", line 377, in main
+    classifier.process_all_repositories_with_logging(args.limit, args.batch_size)
+  File "/persistent/home/ubuntu/workspace/24oct/awsgithubresearch/enhanced_classifier_v3.py", line 235, in process_all_repositories_with_logging
+    classification = self.classify_repository_enhanced_with_logging(repo)
+  File "/persistent/home/ubuntu/workspace/24oct/awsgithubresearch/enhanced_classifier_v4.py", line 288, in classify_repository_enhanced_with_logging
+    enhanced_aws_services = self.get_aws_services_enhanced(repo)
+  File "/persistent/home/ubuntu/workspace/24oct/awsgithubresearch/enhanced_classifier_v4.py", line 207, in get_aws_services_enhanced
+    readme = self.get_readme_content_cached(repo)
+  File "/persistent/home/ubuntu/workspace/24oct/awsgithubresearch/enhanced_classifier_v4.py", line 119, in get_readme_content_cached
+    if self.handle_rate_limit(response):
+  File "/persistent/home/ubuntu/workspace/24oct/awsgithubresearch/smart_rate_limit_classifier.py", line 39, in handle_rate_limit
+    time.sleep(wait_time)
+KeyboardInterrupt
