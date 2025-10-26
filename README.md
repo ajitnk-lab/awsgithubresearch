@@ -174,18 +174,38 @@ python3 smart_rate_limit_classifier.py aws-samples --github-token YOUR_TOKEN
 - **Configurable batch processing**
 - **Public access** to all results
 
-## 🔗 Public Access Examples
+## 🔗 S3 Results & Public Access
 
-### AWSlabs (Original)
-- **Bucket**: https://aws-github-repo-classification.s3.amazonaws.com/
-- **CSV Results**: https://aws-github-repo-classification.s3.amazonaws.com/results/classification_results.csv
+### Production Results Available
 
-### AWS-Samples
-- **Bucket**: https://aws-github-repo-classification-aws-samples.s3.amazonaws.com/
-- **Progress**: https://aws-github-repo-classification-aws-samples.s3.amazonaws.com/checkpoints/progress.json
+#### AWSlabs (945 repositories - COMPLETED ✅)
+- **Bucket**: `aws-github-repo-classification`
+- **Final CSV**: https://aws-github-repo-classification.s3.amazonaws.com/results/classification_results.csv (633KB)
+- **Progress**: https://aws-github-repo-classification.s3.amazonaws.com/checkpoints/progress.json (37KB)
+- **Repository Index**: `master-index/awslabs_repos_939.json` (6.6MB)
+- **Success Rate**: 97.9% (925/945 repositories)
 
-### Any Organization
-- **Pattern**: https://aws-github-repo-classification-{org}.s3.amazonaws.com/
+#### AWS-Samples (7,552 repositories - PROCESSED ✅)
+- **Bucket**: `aws-github-repo-classification-aws-samples`
+- **Main CSV**: https://aws-github-repo-classification-aws-samples.s3.amazonaws.com/results/classification_results.csv (2MB)
+- **Latest Progress**: `results/enhanced_v3_progress_batch534.csv` (1.9MB)
+- **Processing Log**: `logs/processing_log.txt` (74KB)
+- **Repository Index**: `master-index/aws-samples_repos.json` (57MB)
+- **Enhanced Results**: 534+ batch files showing continuous processing
+
+### Enhanced Classifier Achievements
+- **Dramatic Improvement**: From 99.9% "Multiple" AWS services → Specific service detection (Lambda, S3, DynamoDB, etc.)
+- **Multi-Source Detection**: README content + GitHub topics + CloudFormation/CDK analysis
+- **Enhanced Descriptions**: GitHub description → README fallback → generated from repo name
+- **S3 Checkpointing**: Perfect crash recovery with 534+ batch files
+- **Rate Limit Handling**: Automatic 1-hour waits with seamless resumption
+
+### Generic Organization Pattern
+- **Bucket Pattern**: `aws-github-repo-classification-{org}`
+- **Examples**: 
+  - Microsoft: `aws-github-repo-classification-microsoft`
+  - Google: `aws-github-repo-classification-google`
+  - HashiCorp: `aws-github-repo-classification-hashicorp`
 
 ## 📁 File Structure & Usage Guide
 
