@@ -53,6 +53,52 @@ s3://aws-github-repo-classification-{org}/
 └── results/classification_results.csv  # Final classification output
 ```
 
+## 🔧 Classifier Evolution & Selection Guide
+
+### Why Multiple Classifiers?
+
+The project evolved from a simple AWSlabs classifier to a production-ready system handling any GitHub organization. Each classifier serves specific use cases:
+
+**Original (AWSlabs Only - COMPLETED ✅):**
+- `s3_classifier.py` - Original AWSlabs classifier (945 repos)
+- `fetch_repos.py` - Original AWSlabs fetcher
+
+**Generic (Any Organization):**
+- `generic_classifier.py` - Basic classifier for small organizations
+- `enhanced_generic_classifier.py` - Enhanced error handling for medium organizations  
+- `smart_rate_limit_classifier.py` - **RECOMMENDED** - Production-ready for large organizations
+
+**Enhanced Versions:**
+- `enhanced_classifier_v2.py`, `v3.py`, `v4.py` - Iterative improvements with multi-source AWS service detection
+
+### Which Classifier Should You Use?
+
+| Organization Size | Recommended Classifier | GitHub Token | Features |
+|------------------|----------------------|--------------|----------|
+| **<1,000 repos** | `generic_classifier.py` | Optional | Simple, fast processing |
+| **1,000-5,000 repos** | `enhanced_generic_classifier.py` | Recommended | Better error handling |
+| **5,000+ repos** | `smart_rate_limit_classifier.py` | **Required** | Production-ready, crash recovery |
+
+### The "Correct" Classifier
+
+**`smart_rate_limit_classifier.py`** is the most advanced and recommended for production use:
+
+✅ **Advanced Features:**
+- Perfect crash recovery with S3 checkpointing
+- Smart rate limit handling (automatic 1-hour waits)
+- Enhanced AWS service detection (README + topics + CloudFormation analysis)
+- Multi-source description fallback
+- Real-time progress monitoring
+- Zero duplicate processing
+
+✅ **Production Proven:**
+- Successfully processed 7,552 AWS-Samples repositories
+- 534+ batch checkpoints for reliability
+- Handles GitHub API rate limits automatically
+- Resumes from exact position after interruption
+
+**Use this classifier unless you have a specific reason to use others.**
+
 ## 🔧 Usage
 
 ### Prerequisites
